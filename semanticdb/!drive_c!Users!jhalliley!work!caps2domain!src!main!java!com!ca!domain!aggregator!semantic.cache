@@ -1,0 +1,52 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("com.ca.domain.aggregator" package nil nil [1 34])
+            ("javax.persistence.Column" include nil nil [36 68])
+            ("javax.persistence.Entity" include nil nil [69 101])
+            ("javax.persistence.GeneratedValue" include nil nil [102 142])
+            ("javax.persistence.Id" include nil nil [143 171])
+            ("javax.persistence.JoinColumn" include nil nil [172 208])
+            ("javax.persistence.ManyToOne" include nil nil [209 244])
+            ("javax.persistence.NamedQueries" include nil nil [245 283])
+            ("javax.persistence.NamedQuery" include nil nil [284 320])
+            ("javax.persistence.SequenceGenerator" include nil nil [321 364])
+            ("javax.persistence.Table" include nil nil [365 396])
+            ("org.hibernate.annotations.Type" include nil nil [398 436])
+            ("org.joda.time.DateTime" include nil nil [437 467])
+            ("com.ca.domain.AbstractBaseDomain" include nil nil [469 509])
+            ("com.ca.domain.caccore.CarLot" include nil nil [510 546]))          
+      :file "AggregatorCarLotPartner.java"
+      :pointmax 3350
+      :fsize 3349
+      :lastmodtime '(22676 56941 0 0)
+      :unmatched-syntax '((BRACE_BLOCK 1607 . 3350) (GT 1605 . 1606) (IDENTIFIER 1582 . 1605) (LT 1581 . 1582) (PAREN_BLOCK 615 . 1516) (IDENTIFIER 602 . 615) (PAREN_BLOCK 563 . 601) (IDENTIFIER 557 . 563) (IDENTIFIER 549 . 556)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("com.ca.domain.aggregator" package nil nil [1 34])
+            ("javax.persistence.Column" include nil nil [85 117])
+            ("javax.persistence.Entity" include nil nil [118 150])
+            ("javax.persistence.Id" include nil nil [151 179])
+            ("javax.persistence.JoinColumn" include nil nil [180 216])
+            ("javax.persistence.ManyToOne" include nil nil [217 252])
+            ("javax.persistence.NamedQueries" include nil nil [253 291])
+            ("javax.persistence.NamedQuery" include nil nil [292 328])
+            ("javax.persistence.Table" include nil nil [329 360])
+            ("javax.persistence.SequenceGenerator" include nil nil [361 404])
+            ("javax.persistence.GeneratedValue" include nil nil [405 445])
+            ("com.ca.domain.AbstractBaseDomain" include nil nil [447 487])
+            ("com.ca.domain.caccore.CarLot" include nil nil [488 524]))          
+      :file "AggregatorConversation.java"
+      :pointmax 2986
+      :fsize 2985
+      :lastmodtime '(22676 56941 0 0)
+      :unmatched-syntax '((BRACE_BLOCK 1031 . 2986) (GT 1029 . 1030) (IDENTIFIER 1007 . 1029) (LT 1006 . 1007) (PAREN_BLOCK 589 . 943) (IDENTIFIER 576 . 589) (PAREN_BLOCK 540 . 575) (IDENTIFIER 534 . 540) (IDENTIFIER 526 . 533) (IDENTIFIER 78 . 82) (DOT 77 . 78) (IDENTIFIER 68 . 77) (DOT 67 . 68) (IDENTIFIER 56 . 67) (DOT 55 . 56) (IMPORT 36 . 42) (STATIC 43 . 49) (IDENTIFIER 50 . 55))))
+  :file "!drive_c!Users!jhalliley!work!caps2domain!src!main!java!com!ca!domain!aggregator!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

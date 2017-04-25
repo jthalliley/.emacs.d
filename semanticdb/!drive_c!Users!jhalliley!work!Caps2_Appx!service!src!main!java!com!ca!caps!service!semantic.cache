@@ -1,0 +1,110 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("com.ca.caps.service" package nil nil [1 29])
+            ("SystemVariablesService" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("getAppXHostName" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [78 110])
+                    ("getAppXBasicAuthToken" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [115 153])
+                    ("getTwgURL" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [159 185])
+                    ("getCustomerHubServiceUrl" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [191 232])
+                    ("getEmailFlag" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [238 267])
+                    ("getAddrStdnEnabled" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [274 309])
+                    ("getAddrStdnServiceUrl" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [315 353])
+                    ("getRunAddrStdn" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [359 390])
+                    ("getWorkNumberEnabled" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [396 433])
+                    ("getWorkNumberServiceUrl" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [439 479])
+                    ("getCarletonSmartDocsPassword" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [486 531])
+                    ("getCarletonSmartDocsUserName" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [537 582])
+                    ("getAPEXURL" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [589 616])
+                    ("getEContractDestructionTokenName" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [623 672])
+                    ("getEContractDestructionTokenPassword" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [678 731])
+                    ("getEContractGatewayUrl" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [737 776])
+                    ("getEContractPushServiceUrl" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [782 825])
+                    ("getEContractStepsUrl" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [831 868])
+                    ("getEContractSubmitAccess" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [874 915])
+                    ("getEOriginalLoginUrl" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [921 958])
+                    ("getReAssignmentRequestEmail" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [965 1009])
+                    ("getAutopayEmail" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol interface_member_declaration) [1015 1047]))                  
+                :type "interface")
+                nil [31 1051]))          
+      :file "SystemVariablesService.java"
+      :pointmax 1052
+      :fsize 1085
+      :lastmodtime '(22693 52701 0 0)
+      :unmatched-syntax nil))
+  :file "!drive_c!Users!jhalliley!work!Caps2_Appx!service!src!main!java!com!ca!caps!service!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

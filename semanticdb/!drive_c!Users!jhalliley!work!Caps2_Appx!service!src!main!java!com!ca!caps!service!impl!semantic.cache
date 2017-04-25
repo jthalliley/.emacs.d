@@ -1,0 +1,175 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("com.ca.caps.service.impl" package nil nil [1 34])
+            ("java.sql.Connection" include nil nil [36 63])
+            ("java.sql.ResultSet" include nil nil [64 90])
+            ("java.sql.SQLException" include nil nil [91 120])
+            ("java.sql.Statement" include nil nil [121 147])
+            ("java.util.HashMap" include nil nil [148 173])
+            ("java.util.List" include nil nil [174 196])
+            ("java.util.Map" include nil nil [197 218])
+            ("javax.annotation.PostConstruct" include nil nil [219 257])
+            ("javax.inject.Inject" include nil nil [258 285])
+            ("javax.inject.Named" include nil nil [286 312])
+            ("javax.persistence.EntityManager" include nil nil [313 352])
+            ("javax.persistence.PersistenceContext" include nil nil [353 397])
+            ("org.hibernate.Session" include nil nil [399 428])
+            ("org.hibernate.SessionFactory" include nil nil [429 465])
+            ("org.hibernate.ejb.HibernateEntityManager" include nil nil [466 514])
+            ("org.hibernate.impl.SessionFactoryImpl" include nil nil [515 560])
+            ("org.slf4j.Logger" include nil nil [561 585])
+            ("org.slf4j.LoggerFactory" include nil nil [586 617])
+            ("org.springframework.stereotype.Service" include nil nil [618 664])
+            ("com.ca.caps.service.BaseService" include nil nil [666 705])
+            ("com.ca.caps.service.SystemVariablesService" include nil nil [706 756])
+            ("SystemVariablesServiceImpl" type
+               (:typemodifiers ("public")
+                :interfaces ("SystemVariablesService")
+                :superclasses "BaseService"
+                :members 
+                  ( ("LOGGER" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "Logger")
+                        (reparse-symbol class_member_declaration) [948 1043])
+                    ("entityManager" variable
+                       (:typemodifiers ("private")
+                        :type "EntityManager")
+                        (reparse-symbol class_member_declaration) [1069 1105])
+                    ("databaseName" variable
+                       (:typemodifiers ("private" "static")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1115 1150])
+                    ("loadSystemVariables" function
+                       (:typemodifiers ("private")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1238 2662])
+                    ("getSystemVariable" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("key" variable
+                               (:typemodifiers ("final")
+                                :type "String")
+                                (reparse-symbol formal_parameters) [2705 2721]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [2672 2971])
+                    ("loadSystemVariable" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("key" variable
+                               (:typemodifiers ("final")
+                                :type "String")
+                                (reparse-symbol formal_parameters) [3013 3029]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2981 3643])
+                    ("loadDatabaseName" function
+                       (:typemodifiers ("private")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3650 5125])
+                    ("init" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [5147 5204])
+                    ("getAppXHostName" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [5220 5342])
+                    ("getAppXBasicAuthToken" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [5362 5484])
+                    ("getTwgURL" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [5504 5626])
+                    ("getCustomerHubServiceUrl" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [5646 5768])
+                    ("getEmailFlag" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [5783 5905])
+                    ("getWorkNumberServiceUrl" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [5920 6042])
+                    ("getWorkNumberEnabled" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [6057 6179])
+                    ("getRunAddrStdn" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [6194 6316])
+                    ("getAddrStdnServiceUrl" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [6331 6453])
+                    ("getAddrStdnEnabled" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [6468 6590])
+                    ("getCarletonSmartDocsPassword" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [6610 6732])
+                    ("getCarletonSmartDocsUserName" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [6747 6869])
+                    ("getAPEXURL" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [6889 7011])
+                    ("getEContractSubmitAccess" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [7031 7153])
+                    ("getEContractPushServiceUrl" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [7168 7290])
+                    ("getEContractDestructionTokenPassword" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [7305 7427])
+                    ("getEContractDestructionTokenName" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [7442 7564])
+                    ("getEContractStepsUrl" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [7579 7701])
+                    ("getEContractGatewayUrl" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [7716 7838])
+                    ("getEOriginalLoginUrl" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [7853 7975])
+                    ("getReAssignmentRequestEmail" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [7995 8117])
+                    ("getAutopayEmail" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [8132 8254]))                  
+                :type "class")
+                nil [847 8261]))          
+      :file "SystemVariablesServiceImpl.java"
+      :pointmax 8262
+      :fsize 8451
+      :lastmodtime '(22693 52675 0 0)
+      :unmatched-syntax '((SEMICOLON 1227 . 1228) (PAREN_BLOCK 1225 . 1227) (GT 1224 . 1225) (LT 1223 . 1224) (NEW 1212 . 1215) (EQ 1210 . 1211) (GT 1192 . 1193) (COMMA 1185 . 1186) (PRIVATE 1160 . 1167) (LT 1178 . 1179) (PAREN_BLOCK 820 . 846) (IDENTIFIER 812 . 820))))
+  :file "!drive_c!Users!jhalliley!work!Caps2_Appx!service!src!main!java!com!ca!caps!service!impl!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

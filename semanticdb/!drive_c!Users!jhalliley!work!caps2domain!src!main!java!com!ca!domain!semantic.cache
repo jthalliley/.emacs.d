@@ -1,0 +1,26 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("com.ca.domain" package nil nil [1 23])
+            ("java.io.Serializable" include nil nil [25 53])
+            ("javax.persistence.Column" include nil nil [55 87])
+            ("javax.persistence.MappedSuperclass" include nil nil [88 130])
+            ("javax.persistence.PrePersist" include nil nil [131 167])
+            ("javax.persistence.PreUpdate" include nil nil [168 203])
+            ("org.hibernate.annotations.Type" include nil nil [205 243])
+            ("org.joda.time.DateTime" include nil nil [244 274])
+            ("com.ca.domain.caccore.CaUser" include nil nil [276 312])
+            ("com.ca.domain.util.RequestContext" include nil nil [313 354]))          
+      :file "AbstractBaseDomain.java"
+      :pointmax 4865
+      :fsize 5039
+      :lastmodtime '(22676 56946 0 0)
+      :unmatched-syntax '((BRACE_BLOCK 442 . 4864) (IDENTIFIER 429 . 441) (IMPLEMENTS 418 . 428) (GT 416 . 417) (IDENTIFIER 415 . 416) (LT 414 . 415) (IDENTIFIER 356 . 373))))
+  :file "!drive_c!Users!jhalliley!work!caps2domain!src!main!java!com!ca!domain!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

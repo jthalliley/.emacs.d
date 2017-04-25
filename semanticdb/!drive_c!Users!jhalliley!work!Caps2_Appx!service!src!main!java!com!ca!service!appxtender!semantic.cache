@@ -1,0 +1,271 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("com.ca.service.appxtender" package nil nil [1 35])
+            ("java.io.ByteArrayInputStream" include nil nil [37 73])
+            ("java.io.IOException" include nil nil [74 101])
+            ("java.util.ArrayList" include nil nil [102 129])
+            ("java.util.Arrays" include nil nil [130 154])
+            ("java.util.List" include nil nil [155 177])
+            ("javax.inject.Inject" include nil nil [178 205])
+            ("javax.inject.Named" include nil nil [206 232])
+            ("org.slf4j.Logger" include nil nil [234 258])
+            ("org.slf4j.LoggerFactory" include nil nil [259 290])
+            ("org.springframework.core.io.Resource" include nil nil [291 335])
+            ("org.springframework.http.HttpEntity" include nil nil [336 379])
+            ("org.springframework.http.HttpHeaders" include nil nil [380 424])
+            ("org.springframework.http.HttpMethod" include nil nil [425 468])
+            ("org.springframework.http.MediaType" include nil nil [469 511])
+            ("org.springframework.http.ResponseEntity" include nil nil [512 559])
+            ("org.springframework.http.converter.ByteArrayHttpMessageConverter" include nil nil [560 632])
+            ("org.springframework.http.converter.HttpMessageConverter" include nil nil [633 696])
+            ("org.springframework.web.client.RestTemplate" include nil nil [697 748])
+            ("com.ca.caps.service.BaseService" include nil nil [754 793])
+            ("com.ca.caps.service.SystemVariablesService" include nil nil [794 844])
+            ("com.ca.caps.service.exception.ServiceException" include nil nil [845 899])
+            ("com.ca.caps.service.util.TimerUtils" include nil nil [900 943])
+            ("com.fasterxml.jackson.databind.ObjectMapper" include nil nil [945 996])
+            ("AppXtenderClientServiceImpl" type
+               (:typemodifiers ("public")
+                :interfaces ("AppXtenderClientService")
+                :superclasses "BaseService"
+                :members 
+                  ( ("ENDPOINT_APPX_GET_AXDOC_PAGES" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1135 1261])
+                    ("ENDPOINT_APPX_GET_AXDOC_RENDER_JOB" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1266 1396])
+                    ("ENDPOINT_APPX_ACCEPT_MEDIA_TYPE" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1401 1478])
+                    ("LOGGER" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "Logger")
+                        (reparse-symbol class_member_declaration) [1483 1607])
+                    ("systemVariablesService" variable
+                       (:typemodifiers ("private")
+                        :type "SystemVariablesService")
+                        (reparse-symbol class_member_declaration) [1658 1712])
+                    ("contentType" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1719 1753])
+                    ("getContentType" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1822 1888])
+                    ("getPageNumbersByDocId" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("docId" variable
+                               (:typemodifiers ("final")
+                                :type "Long")
+                                (reparse-symbol formal_parameters) [1951 1967]))                          )
+                        (reparse-symbol class_member_declaration) [1929 3420])
+                    ("getByteStreamByDocIdAndPageNumber" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("docId" variable
+                               (:typemodifiers ("final")
+                                :type "Long")
+                                (reparse-symbol formal_parameters) [3502 3518])
+                            ("pageNo" variable
+                               (:typemodifiers ("final")
+                                :type "int")
+                                (reparse-symbol formal_parameters) [3520 3536]))                          
+                        :type "ByteArrayInputStream")
+                        (reparse-symbol class_member_declaration) [3440 5119])
+                    ("buildEndpointUrl" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("path" variable
+                               (:typemodifiers ("final")
+                                :type "String")
+                                (reparse-symbol formal_parameters) [5157 5174])
+                            ("docId" variable
+                               (:typemodifiers ("final")
+                                :type "Long")
+                                (reparse-symbol formal_parameters) [5176 5192])
+                            ("pageNo" variable
+                               (:typemodifiers ("final")
+                                :type "Integer")
+                                (reparse-symbol formal_parameters) [5194 5214]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [5125 5413]))                  
+                :type "class")
+                nil [1032 5420]))          
+      :file "AppXtenderClientServiceImpl.java"
+      :pointmax 5421
+      :fsize 5545
+      :lastmodtime '(22693 52539 0 0)
+      :unmatched-syntax '((GT 1927 . 1928) (IDENTIFIER 1894 . 1903) (PUBLIC 1908 . 1914) (LT 1919 . 1920) (STRING_LITERAL 1628 . 1652) (PAREN_BLOCK 1004 . 1031) (IDENTIFIER 998 . 1004)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode java-mode
+      :tags 
+        '( ("com.ca.service.appxtender" package nil nil [1 35])
+            ("java.util.List" include nil nil [37 59])
+            ("com.fasterxml.jackson.annotation.JsonProperty" include nil nil [150 203])
+            ("AxDocPages" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("id" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [253 271])
+                    ("updated" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [300 323])
+                    ("Base" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [410 430])
+                    ("getId" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [487 526])
+                    ("setId" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("id" variable (:type "String") (reparse-symbol formal_parameters) [546 555]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [528 577])
+                    ("getUpdated" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [579 628])
+                    ("setUpdated" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("updated" variable (:type "String") (reparse-symbol formal_parameters) [653 667]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [630 699])
+                    ("getEntries" function (:constructor-flag t) (reparse-symbol class_member_declaration) [723 758])
+                    ("setEntries" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("" variable (:type "entries") (reparse-symbol formal_parameters) [797 804]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [760 836])
+                    ("getBase" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [838 881])
+                    ("setBase" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("base" variable (:type "String") (reparse-symbol formal_parameters) [903 914]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [883 935])
+                    ("getLinks" function (:constructor-flag t) (reparse-symbol class_member_declaration) [956 987])
+                    ("setLinks" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("" variable (:type "links") (reparse-symbol formal_parameters) [1022 1027]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [989 1055]))                  
+                :type "class")
+                nil [205 1058]))          
+      :file "AxDocPages.java"
+      :pointmax 1059
+      :fsize 1117
+      :lastmodtime '(22683 11850 0 0)
+      :unmatched-syntax '((GT 1020 . 1021) (IDENTIFIER 1010 . 1014) (LT 1014 . 1015) (GT 954 . 955) (PUBLIC 937 . 943) (LT 948 . 949) (GT 795 . 796) (IDENTIFIER 783 . 787) (LT 787 . 788) (GT 721 . 722) (PUBLIC 702 . 708) (LT 713 . 714) (SEMICOLON 482 . 483) (GT 475 . 476) (IDENTIFIER 433 . 446) (PRIVATE 457 . 464) (LT 469 . 470) (STRING_LITERAL 447 . 454) (STRING_LITERAL 400 . 407) (SEMICOLON 382 . 383) (GT 372 . 373) (IDENTIFIER 326 . 339) (PRIVATE 352 . 359) (LT 364 . 365) (STRING_LITERAL 340 . 349) (STRING_LITERAL 288 . 297) (STRING_LITERAL 246 . 250)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode java-mode
+      :tags 
+        '( ("com.ca.service.appxtender" package nil nil [1 35])
+            ("java.util.List" include nil nil [37 59])
+            ("com.fasterxml.jackson.annotation.JsonProperty" include nil nil [105 158])
+            ("Entries" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("page" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [207 224])
+                    ("base" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [252 272])
+                    ("getPage" function
+                       (:typemodifiers ("public")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [330 370])
+                    ("setPage" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("page" variable (:type "int") (reparse-symbol formal_parameters) [392 400]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [372 426])
+                    ("getLinks" function (:constructor-flag t) (reparse-symbol class_member_declaration) [447 478])
+                    ("setLinks" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("" variable (:type "links") (reparse-symbol formal_parameters) [513 518]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [480 546]))                  
+                :type "class")
+                nil [160 548]))          
+      :file "Entries.java"
+      :pointmax 549
+      :fsize 579
+      :lastmodtime '(22683 11850 0 0)
+      :unmatched-syntax '((GT 511 . 512) (IDENTIFIER 501 . 505) (LT 505 . 506) (GT 445 . 446) (PUBLIC 428 . 434) (LT 439 . 440) (SEMICOLON 325 . 326) (GT 318 . 319) (IDENTIFIER 276 . 289) (PRIVATE 300 . 307) (LT 312 . 313) (STRING_LITERAL 290 . 297) (STRING_LITERAL 242 . 249) (STRING_LITERAL 198 . 204)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode java-mode
+      :tags 
+        '( ("com.ca.service.appxtender" package nil nil [1 35])
+            ("com.fasterxml.jackson.annotation.JsonProperty" include nil nil [37 90])
+            ("Links" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("rel" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [136 155])
+                    ("href" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [182 202])
+                    ("getRel" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [206 247])
+                    ("setRel" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("rel" variable (:type "String") (reparse-symbol formal_parameters) [268 278]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [249 302])
+                    ("getHref" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [304 347])
+                    ("setHref" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("href" variable (:type "String") (reparse-symbol formal_parameters) [369 380]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [349 406]))                  
+                :type "class")
+                nil [92 408]))          
+      :file "Links.java"
+      :pointmax 409
+      :fsize 432
+      :lastmodtime '(22683 11850 0 0)
+      :unmatched-syntax '((STRING_LITERAL 173 . 179) (STRING_LITERAL 128 . 133))))
+  :file "!drive_c!Users!jhalliley!work!Caps2_Appx!service!src!main!java!com!ca!service!appxtender!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

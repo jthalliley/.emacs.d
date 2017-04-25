@@ -1,0 +1,46 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("com.ca.caps.service.util" package nil nil [1 34])
+            ("java.util.concurrent.TimeUnit" include nil nil [36 73])
+            ("org.slf4j.Logger" include nil nil [75 99])
+            ("org.slf4j.LoggerFactory" include nil nil [100 131])
+            ("TimerUtils" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("LOGGER" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "Logger")
+                        (reparse-symbol class_member_declaration) [164 243])
+                    ("startTime" variable
+                       (:typemodifiers ("private")
+                        :type "long")
+                        (reparse-symbol class_member_declaration) [253 276])
+                    ("start" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [286 352])
+                    ("stopAndLog" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("processName" variable
+                               (:typemodifiers ("final")
+                                :type "String")
+                                (reparse-symbol formal_parameters) [381 405]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [358 1028]))                  
+                :type "class")
+                nil [133 1035]))          
+      :file "TimerUtils.java"
+      :pointmax 1036
+      :fsize 1035
+      :lastmodtime '(22693 63793 0 0)
+      :unmatched-syntax nil))
+  :file "!drive_c!Users!jhalliley!work!Caps2_Appx!service!src!main!java!com!ca!caps!service!util!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

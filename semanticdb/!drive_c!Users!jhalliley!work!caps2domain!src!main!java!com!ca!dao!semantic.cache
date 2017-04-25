@@ -1,0 +1,208 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode java-mode
+      :tags 
+        '( ("com.ca.dao" package nil nil [1 20])
+            ("java.io.Serializable" include nil nil [22 50])
+            ("java.util.ArrayList" include nil nil [51 78])
+            ("java.util.HashMap" include nil nil [79 104])
+            ("java.util.Iterator" include nil nil [105 131])
+            ("java.util.List" include nil nil [132 154])
+            ("java.util.Map" include nil nil [155 176])
+            ("javax.persistence.EntityManager" include nil nil [178 217])
+            ("javax.persistence.NoResultException" include nil nil [218 261])
+            ("javax.persistence.NonUniqueResultException" include nil nil [262 312])
+            ("javax.persistence.PersistenceContext" include nil nil [313 357])
+            ("javax.persistence.Query" include nil nil [358 389])
+            ("org.slf4j.Logger" include nil nil [391 415])
+            ("org.slf4j.LoggerFactory" include nil nil [416 447])
+            ("org.springframework.orm.jpa.support.JpaDaoSupport" include nil nil [448 505])
+            ("org.springframework.stereotype.Repository" include nil nil [506 555])
+            ("com.ca.domain.AbstractBaseDomain" include nil nil [557 597])
+            ("JpaRepository" type
+               (:typemodifiers ("public")
+                :interfaces ("IRepository")
+                :superclasses "JpaDaoSupport"
+                :members 
+                  ( ("logger" variable
+                       (:typemodifiers ("private" "final")
+                        :type "Logger")
+                        (reparse-symbol class_member_declaration) [701 776])
+                    ("entityManager" variable
+                       (:typemodifiers ("protected")
+                        :type "EntityManager")
+                        (reparse-symbol class_member_declaration) [801 839])
+                    ("findByPk" function
+                       (:arguments 
+                          ( ("" variable (:type "entityClass") (reparse-symbol formal_parameters) [874 885])
+                            ("id" variable (:type "Serializable") (reparse-symbol formal_parameters) [887 902]))                          
+                        :type "T")
+                        (reparse-symbol class_member_declaration) [854 1025])
+                    ("findByName" function
+                       (:arguments 
+                          ( ("" variable (:type "entityClass") (reparse-symbol formal_parameters) [1093 1104])
+                            ("name" variable (:type "String") (reparse-symbol formal_parameters) [1106 1117]))                          
+                        :type "T")
+                        (reparse-symbol class_member_declaration) [1071 1443])
+                    ("save" function
+                       (:arguments 
+                          ( ("entity" variable (:type "T") (reparse-symbol formal_parameters) [1464 1472]))                          
+                        :type "T")
+                        (reparse-symbol class_member_declaration) [1457 1519])
+                    ("saveAll" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("" variable (:type "entities") (reparse-symbol formal_parameters) [1557 1565]))                          )
+                        (reparse-symbol class_member_declaration) [1541 1725])
+                    ("delete" function
+                       (:arguments 
+                          ( ("entity" variable (:type "T") (reparse-symbol formal_parameters) [1752 1760]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1740 1801])
+                    ("deleteAll" function
+                       (:arguments 
+                          ( ("" variable (:type "entities") (reparse-symbol formal_parameters) [1840 1848]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1817 1915])
+                    ("findAll" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("" variable (:type "entityClass") (reparse-symbol formal_parameters) [1986 1997]))                          )
+                        (reparse-symbol class_member_declaration) [1969 2068])
+                    ("findByNamedQueryAndNamedParam" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("" variable (:type "entityClass") (reparse-symbol formal_parameters) [2129 2140])
+                            ("queryName" variable (:type "String") (reparse-symbol formal_parameters) [2142 2158])
+                            ("paramName" variable (:type "String") (reparse-symbol formal_parameters) [2160 2176])
+                            ("paramValue" variable (:type "Object") (reparse-symbol formal_parameters) [2178 2195]))                          )
+                        (reparse-symbol class_member_declaration) [2090 2459])
+                    ("findByNamedQueryAndNamedParamSingleResult" function
+                       (:arguments 
+                          ( ("" variable (:type "entityClass") (reparse-symbol formal_parameters) [2526 2537])
+                            ("queryName" variable (:type "String") (reparse-symbol formal_parameters) [2539 2555])
+                            ("paramName" variable (:type "String") (reparse-symbol formal_parameters) [2557 2573])
+                            ("paramValue" variable (:type "Object") (reparse-symbol formal_parameters) [2575 2592]))                          
+                        :type "T")
+                        (reparse-symbol class_member_declaration) [2473 2875])
+                    ("findByNamedQueryAndNamedParams" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("" variable (:type "entityClass") (reparse-symbol formal_parameters) [2969 2980])
+                            ("queryName" variable (:type "String") (reparse-symbol formal_parameters) [2982 2998])
+                            ("" variable (:type "String") (reparse-symbol formal_parameters) [3004 3010])
+                            ("" variable (:type "params") (reparse-symbol formal_parameters) [3015 3021]))                          )
+                        (reparse-symbol class_member_declaration) [2929 3113])
+                    ("findNonentityByNamedQueryAndNamedParams" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("entityClass" variable (:type "Class") (reparse-symbol formal_parameters) [3204 3221])
+                            ("queryName" variable (:type "String") (reparse-symbol formal_parameters) [3223 3239])
+                            ("" variable (:type "String") (reparse-symbol formal_parameters) [3245 3251])
+                            ("" variable (:type "params") (reparse-symbol formal_parameters) [3256 3262]))                          
+                        :type "List")
+                        (reparse-symbol class_member_declaration) [3152 3345])
+                    ("findByNamedQuery" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("" variable (:type "entityClass") (reparse-symbol formal_parameters) [3427 3438])
+                            ("queryName" variable (:type "String") (reparse-symbol formal_parameters) [3440 3456]))                          )
+                        (reparse-symbol class_member_declaration) [3401 3526])
+                    ("flush" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3558 3615])
+                    ("deleteAll" function
+                       (:arguments 
+                          ( ("" variable (:type "entityClass") (reparse-symbol formal_parameters) [3678 3689]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [3655 3895])
+                    ("deleteObjects" function
+                       (:arguments 
+                          ( ("" variable (:type "entityClass") (reparse-symbol formal_parameters) [3961 3972])
+                            ("" variable (:type "entityList") (reparse-symbol formal_parameters) [4002 4012]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [3934 4414])
+                    ("deleteObjectsByPks" function
+                       (:arguments 
+                          ( ("" variable (:type "entityClass") (reparse-symbol formal_parameters) [4461 4472])
+                            ("" variable (:type "pks") (reparse-symbol formal_parameters) [4485 4488]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [4429 4764])
+                    ("findByQueryAndParms" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("hqlQuery" variable (:type "String") (reparse-symbol formal_parameters) [4874 4889])
+                            ("" variable (:type "String") (reparse-symbol formal_parameters) [4894 4900])
+                            ("" variable (:type "parms") (reparse-symbol formal_parameters) [4909 4914]))                          
+                        :type "List")
+                        (reparse-symbol class_member_declaration) [4842 5322])
+                    ("findByHQLQuery" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("hqlQuery" variable (:type "String") (reparse-symbol formal_parameters) [5421 5436]))                          
+                        :type "List")
+                        (reparse-symbol class_member_declaration) [5394 5617])
+                    ("findByNativeQuery" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("hqlQuery" variable (:type "String") (reparse-symbol formal_parameters) [5733 5748]))                          
+                        :type "List")
+                        (reparse-symbol class_member_declaration) [5703 5938])
+                    ("findByNativeQueryForSingle" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("hqlQuery" variable (:type "String") (reparse-symbol formal_parameters) [6065 6080]))                          
+                        :type "Object")
+                        (reparse-symbol class_member_declaration) [6024 6428])
+                    ("findByHQLQuery" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("hqlQuery" variable (:type "String") (reparse-symbol formal_parameters) [6541 6556])
+                            ("" variable (:type "String") (reparse-symbol formal_parameters) [6562 6568])
+                            ("" variable (:type "params") (reparse-symbol formal_parameters) [6577 6583]))                          
+                        :type "List")
+                        (reparse-symbol class_member_declaration) [6514 7000])
+                    ("findByHQLSingleQuery" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("hqlQuery" variable (:type "String") (reparse-symbol formal_parameters) [7124 7139])
+                            ("" variable (:type "String") (reparse-symbol formal_parameters) [7145 7151])
+                            ("" variable (:type "parms") (reparse-symbol formal_parameters) [7160 7165]))                          
+                        :type "Object")
+                        (reparse-symbol class_member_declaration) [7089 7741])
+                    ("findByHQLSingleQuery" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("hqlQuery" variable (:type "String") (reparse-symbol formal_parameters) [7847 7862]))                          
+                        :type "Object")
+                        (reparse-symbol class_member_declaration) [7812 8203])
+                    ("deleteByNativeQuery" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("hqlQuery" variable (:type "String") (reparse-symbol formal_parameters) [8281 8296])
+                            ("" variable (:type "pks") (reparse-symbol formal_parameters) [8308 8311]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [8249 8527])
+                    ("updateByNativeQuery" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("hqlQuery" variable (:type "String") (reparse-symbol formal_parameters) [8622 8637])
+                            ("" variable (:type "String") (reparse-symbol formal_parameters) [8643 8649])
+                            ("" variable (:type "parms") (reparse-symbol formal_parameters) [8658 8663]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [8590 9250]))                  
+                :type "class")
+                nil [625 9252]))          
+      :file "JpaRepository.java"
+      :pointmax 9253
+      :fsize 9584
+      :lastmodtime '(22676 56940 0 0)
+      :unmatched-syntax '((IDENTIFIER 8650 . 8656) (GT 8656 . 8657) (IDENTIFIER 8639 . 8642) (LT 8642 . 8643) (BRACE_BLOCK 8549 . 8576) (GT 8306 . 8307) (IDENTIFIER 8297 . 8301) (LT 8301 . 8302) (STRING_LITERAL 8225 . 8235) (STRING_LITERAL 7788 . 7798) (IDENTIFIER 7152 . 7158) (GT 7158 . 7159) (IDENTIFIER 7141 . 7144) (LT 7144 . 7145) (BRACE_BLOCK 7048 . 7075) (IDENTIFIER 6569 . 6575) (GT 6575 . 6576) (IDENTIFIER 6558 . 6561) (LT 6561 . 6562) (BRACE_BLOCK 6476 . 6500) (BRACE_BLOCK 5986 . 6010) (BRACE_BLOCK 5665 . 5689) (STRING_LITERAL 5370 . 5380) (IDENTIFIER 4901 . 4907) (GT 4907 . 4908) (IDENTIFIER 4890 . 4893) (LT 4893 . 4894) (BRACE_BLOCK 4812 . 4839) (GT 4483 . 4484) (IDENTIFIER 4474 . 4478) (LT 4478 . 4479) (GT 4459 . 4460) (IDENTIFIER 4452 . 4457) (LT 4457 . 4458) (GT 4427 . 4428) (PUBLIC 4418 . 4424) (LT 4425 . 4426) (RSHIFT 3999 . 4001) (QUESTION 3998 . 3999) (LT 3997 . 3998) (IDENTIFIER 3974 . 3978) (LT 3978 . 3979) (GT 3959 . 3960) (IDENTIFIER 3952 . 3957) (LT 3957 . 3958) (GT 3932 . 3933) (PUBLIC 3923 . 3929) (LT 3930 . 3931) (GT 3676 . 3677) (IDENTIFIER 3669 . 3674) (LT 3674 . 3675) (GT 3653 . 3654) (PUBLIC 3644 . 3650) (LT 3651 . 3652) (GT 3425 . 3426) (IDENTIFIER 3418 . 3423) (LT 3423 . 3424) (GT 3399 . 3400) (LT 3397 . 3398) (GT 3391 . 3392) (IDENTIFIER 3350 . 3367) (PUBLIC 3382 . 3388) (LT 3389 . 3390) (STRING_LITERAL 3368 . 3379) (GT 3254 . 3255) (QUESTION 3253 . 3254) (IDENTIFIER 3241 . 3244) (LT 3244 . 3245) (BRACE_BLOCK 3135 . 3149) (GT 3013 . 3014) (QUESTION 3012 . 3013) (IDENTIFIER 3000 . 3003) (LT 3003 . 3004) (GT 2967 . 2968) (IDENTIFIER 2960 . 2965) (LT 2965 . 2966) (GT 2927 . 2928) (LT 2925 . 2926) (GT 2919 . 2920) (IDENTIFIER 2878 . 2895) (PUBLIC 2910 . 2916) (LT 2917 . 2918) (STRING_LITERAL 2896 . 2907) (GT 2524 . 2525) (IDENTIFIER 2517 . 2522) (LT 2522 . 2523) (GT 2471 . 2472) (PUBLIC 2462 . 2468) (LT 2469 . 2470) (GT 2127 . 2128) (IDENTIFIER 2120 . 2125) (LT 2125 . 2126) (GT 2088 . 2089) (LT 2086 . 2087) (GT 2080 . 2081) (PUBLIC 2071 . 2077) (LT 2078 . 2079) (GT 1984 . 1985) (IDENTIFIER 1977 . 1982) (LT 1982 . 1983) (GT 1967 . 1968) (LT 1965 . 1966) (GT 1959 . 1960) (IDENTIFIER 1918 . 1935) (PUBLIC 1950 . 1956) (LT 1957 . 1958) (STRING_LITERAL 1936 . 1947) (GT 1838 . 1839) (IDENTIFIER 1832 . 1836) (LT 1836 . 1837) (GT 1814 . 1815) (PUBLIC 1805 . 1811) (LT 1812 . 1813) (GT 1738 . 1739) (PUBLIC 1729 . 1735) (LT 1736 . 1737) (GT 1555 . 1556) (IDENTIFIER 1549 . 1553) (LT 1553 . 1554) (GT 1539 . 1540) (LT 1537 . 1538) (GT 1531 . 1532) (PUBLIC 1522 . 1528) (LT 1529 . 1530) (GT 1455 . 1456) (PUBLIC 1446 . 1452) (LT 1453 . 1454) (GT 1091 . 1092) (IDENTIFIER 1084 . 1089) (LT 1089 . 1090) (GT 1069 . 1070) (IDENTIFIER 1028 . 1045) (PUBLIC 1060 . 1066) (LT 1067 . 1068) (STRING_LITERAL 1046 . 1057) (GT 872 . 873) (IDENTIFIER 865 . 870) (LT 870 . 871) (GT 852 . 853) (PUBLIC 843 . 849) (LT 850 . 851) (PAREN_BLOCK 610 . 624) (IDENTIFIER 599 . 610))))
+  :file "!drive_c!Users!jhalliley!work!caps2domain!src!main!java!com!ca!dao!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

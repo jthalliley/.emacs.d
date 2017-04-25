@@ -1,0 +1,2483 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("com.ca.caps.service.applicant.impl" package nil nil [2 45])
+            ("java.io.InputStream" include nil nil [2706 2733])
+            ("java.math.BigDecimal" include nil nil [2734 2762])
+            ("java.util.ArrayList" include nil nil [2763 2790])
+            ("java.util.Collections" include nil nil [2791 2820])
+            ("java.util.HashMap" include nil nil [2821 2846])
+            ("java.util.HashSet" include nil nil [2847 2872])
+            ("java.util.Iterator" include nil nil [2873 2899])
+            ("java.util.LinkedHashMap" include nil nil [2900 2931])
+            ("java.util.List" include nil nil [2932 2954])
+            ("java.util.Map" include nil nil [2955 2976])
+            ("java.util.NoSuchElementException" include nil nil [2977 3017])
+            ("java.util.Set" include nil nil [3018 3039])
+            ("java.util.SortedMap" include nil nil [3040 3067])
+            ("java.util.StringTokenizer" include nil nil [3068 3101])
+            ("java.util.TreeMap" include nil nil [3102 3127])
+            ("java.util.concurrent.Callable" include nil nil [3128 3165])
+            ("java.util.concurrent.ExecutorService" include nil nil [3166 3210])
+            ("java.util.concurrent.Executors" include nil nil [3211 3249])
+            ("java.util.concurrent.Future" include nil nil [3250 3285])
+            ("java.util.concurrent.TimeUnit" include nil nil [3286 3323])
+            ("javax.annotation.Resource" include nil nil [3325 3358])
+            ("javax.inject.Inject" include nil nil [3359 3386])
+            ("javax.inject.Named" include nil nil [3387 3413])
+            ("javax.persistence.EntityManager" include nil nil [3414 3453])
+            ("javax.persistence.NoResultException" include nil nil [3454 3497])
+            ("javax.persistence.NonUniqueResultException" include nil nil [3498 3548])
+            ("javax.persistence.PersistenceContext" include nil nil [3549 3593])
+            ("javax.persistence.Query" include nil nil [3594 3625])
+            ("javax.xml.datatype.DatatypeConfigurationException" include nil nil [3626 3683])
+            ("org.apache.commons.lang.StringUtils" include nil nil [3685 3728])
+            ("org.joda.time.DateTime" include nil nil [3729 3759])
+            ("org.slf4j.Logger" include nil nil [3760 3784])
+            ("org.slf4j.LoggerFactory" include nil nil [3785 3816])
+            ("org.springframework.http.ResponseEntity" include nil nil [3817 3864])
+            ("org.springframework.transaction.annotation.Propagation" include nil nil [3865 3927])
+            ("org.springframework.transaction.annotation.Transactional" include nil nil [3928 3992])
+            ("com.ca.caps.customerhub.jaxb.AddPhone" include nil nil [3994 4039])
+            ("com.ca.caps.customerhub.jaxb.AddPhoneBadNumber" include nil nil [4040 4094])
+            ("com.ca.caps.customerhub.jaxb.AddPhoneNumber" include nil nil [4095 4146])
+            ("com.ca.caps.customerhub.jaxb.AddPhoneResponse" include nil nil [4147 4200])
+            ("com.ca.caps.customerhub.jaxb.Customer" include nil nil [4201 4246])
+            ("com.ca.caps.customerhub.jaxb.PhoneBadNumber" include nil nil [4247 4298])
+            ("com.ca.caps.customerhub.jaxb.PhoneNumber" include nil nil [4299 4347])
+            ("com.ca.caps.customerhub.jaxb.PhoneNumberDetail" include nil nil [4348 4402])
+            ("com.ca.caps.customerhub.jaxb.PhoneResponse" include nil nil [4403 4453])
+            ("com.ca.caps.customerhub.jaxb.ProvisionCustomer" include nil nil [4454 4508])
+            ("com.ca.caps.customerhub.jaxb.ProvisionCustomerResponse" include nil nil [4509 4571])
+            ("com.ca.caps.customerhub.jaxb.RemovePhoneBadNumber" include nil nil [4572 4629])
+            ("com.ca.caps.customerhub.jaxb.SetPhoneClassification" include nil nil [4630 4689])
+            ("com.ca.caps.customerhub.jaxb.SetPhoneRank" include nil nil [4690 4739])
+            ("com.ca.caps.customerhub.jaxb.SetPhoneRankResponse" include nil nil [4740 4797])
+            ("com.ca.caps.dealertrack.util.LenderResponseMessageWO" include nil nil [4798 4858])
+            ("com.ca.caps.service.BaseService" include nil nil [4859 4898])
+            ("com.ca.caps.service.EmailService" include nil nil [4899 4939])
+            ("com.ca.caps.service.InitializationService" include nil nil [4940 4989])
+            ("com.ca.caps.service.applicant.ApplicantService" include nil nil [4990 5044])
+            ("com.ca.caps.service.applicant.wo.ApplicantReferenceInfoWO" include nil nil [5045 5110])
+            ("com.ca.caps.service.applicant.wo.ApplicantWO" include nil nil [5111 5163])
+            ("com.ca.caps.service.applicant.wo.CarLotDpscMessageWO" include nil nil [5164 5224])
+            ("com.ca.caps.service.applicant.wo.DealSummaryApplicantWO" include nil nil [5225 5288])
+            ("com.ca.caps.service.applicant.wo.DealSummaryWO" include nil nil [5289 5343])
+            ("com.ca.caps.service.applicant.wo.DocsAndMessagesWO" include nil nil [5344 5402])
+            ("com.ca.caps.service.applicant.wo.DocxDocumentWO" include nil nil [5403 5458])
+            ("com.ca.caps.service.applicant.wo.NewVehicleLoanApplicationWO" include nil nil [5459 5527])
+            ("com.ca.caps.service.applicant.wo.ReferenceInfoWO" include nil nil [5528 5584])
+            ("com.ca.caps.service.applicant.wo.SpouseInfoWO" include nil nil [5585 5638])
+            ("com.ca.caps.service.applicant.wo.SsnLookUpWO" include nil nil [5639 5691])
+            ("com.ca.caps.service.applicant.wo.Step5ApplicantWO" include nil nil [5692 5749])
+            ("com.ca.caps.service.applicant.wo.VehicleLoanApplicationWO" include nil nil [5750 5815])
+            ("com.ca.caps.service.applicant.wo.VlaInfoAtVlcTimeApplicantHistoryWO" include nil nil [5816 5891])
+            ("com.ca.caps.service.applicant.wo.VlaInfoAtVlcTimeHistoryWO" include nil nil [5892 5958])
+            ("com.ca.caps.service.appxtender.AppXtenderClientService" include nil nil [5959 6021])
+            ("com.ca.caps.service.bureau.BureauService" include nil nil [6022 6070])
+            ("com.ca.caps.service.casemanagement.CaseManagementService" include nil nil [6071 6135])
+            ("com.ca.caps.service.constant.CapsServiceConstant" include nil nil [6136 6192])
+            ("com.ca.caps.service.customerhub.CustomerHubService" include nil nil [6193 6251])
+            ("com.ca.caps.service.deal.CapsDealService" include nil nil [6252 6300])
+            ("com.ca.caps.service.deal.wo.ShoppingCartWO" include nil nil [6301 6351])
+            ("com.ca.caps.service.deal.wo.Step6AdditionalInfoWO" include nil nil [6352 6409])
+            ("com.ca.caps.service.deal.wo.Step6AdvanceAdjustmentWO" include nil nil [6410 6470])
+            ("com.ca.caps.service.deal.wo.Step6InternalAdvanceWO" include nil nil [6471 6529])
+            ("com.ca.caps.service.deal.wo.Step6MinMaxAdvAdjWO" include nil nil [6530 6585])
+            ("com.ca.caps.service.deal.wo.Step6ReAssignmentWO" include nil nil [6586 6641])
+            ("com.ca.caps.service.deal.wo.Step6StatusHistoryWO" include nil nil [6642 6698])
+            ("com.ca.caps.service.deal.wo.Step6ViewAllNotesWO" include nil nil [6699 6754])
+            ("com.ca.caps.service.dealersetup.DealerSetupService" include nil nil [6755 6813])
+            ("com.ca.caps.service.dealersetup.wo.CarLotPricingStrategyWO" include nil nil [6814 6880])
+            ("com.ca.caps.service.dealertrack.DealerTrackSendService" include nil nil [6881 6943])
+            ("com.ca.caps.service.exception.CustomerHubException" include nil nil [6944 7002])
+            ("com.ca.caps.service.exception.ServiceException" include nil nil [7003 7057])
+            ("com.ca.caps.service.routeone.RouteOneSendService" include nil nil [7058 7114])
+            ("com.ca.caps.service.util.CapsUtil" include nil nil [7115 7156])
+            ("com.ca.caps.service.util.DateUtil" include nil nil [7157 7198])
+            ("com.ca.caps.service.util.SystemRequest" include nil nil [7199 7245])
+            ("com.ca.dao.IJdbcRepository" include nil nil [7246 7280])
+            ("com.ca.domain.caccore.AcknowledgementType" include nil nil [7281 7330])
+            ("com.ca.domain.caccore.AdvanceAdjustmentPrivilege" include nil nil [7331 7387])
+            ("com.ca.domain.caccore.AdvanceAdjustmentSubtype" include nil nil [7388 7442])
+            ("com.ca.domain.caccore.AutopayDetail" include nil nil [7443 7486])
+            ("com.ca.domain.caccore.AutopayInquiryResponse" include nil nil [7487 7539])
+            ("com.ca.domain.caccore.CaDepartmentRole" include nil nil [7540 7586])
+            ("com.ca.domain.caccore.CaUser" include nil nil [7587 7623])
+            ("com.ca.domain.caccore.CarDealershipEmployee" include nil nil [7624 7675])
+            ("com.ca.domain.caccore.CarLot" include nil nil [7676 7712])
+            ("com.ca.domain.caccore.CarLotAcknowledgement" include nil nil [7713 7764])
+            ("com.ca.domain.caccore.CarLotCaFee" include nil nil [7765 7806])
+            ("com.ca.domain.caccore.CarLotContact" include nil nil [7807 7850])
+            ("com.ca.domain.caccore.CarLotDealView" include nil nil [7851 7895])
+            ("com.ca.domain.caccore.CarLotEmployee" include nil nil [7896 7940])
+            ("com.ca.domain.caccore.CarLotFinanceCategory" include nil nil [7941 7992])
+            ("com.ca.domain.caccore.CarLotPricingMethod" include nil nil [7993 8042])
+            ("com.ca.domain.caccore.CarLotScoringVendorVersion" include nil nil [8043 8099])
+            ("com.ca.domain.caccore.CarletonStateParameter" include nil nil [8100 8152])
+            ("com.ca.domain.caccore.DpscNoteType" include nil nil [8153 8195])
+            ("com.ca.domain.caccore.FcasCalAccess" include nil nil [8196 8239])
+            ("com.ca.domain.caccore.FcasCleAccess" include nil nil [8240 8283])
+            ("com.ca.domain.caccore.NextVlaStatusType" include nil nil [8284 8331])
+            ("com.ca.domain.caccore.ReassignmentReasonType" include nil nil [8332 8384])
+            ("com.ca.domain.caccore.SsacCdrAccess" include nil nil [8385 8428])
+            ("com.ca.domain.caccore.SsacClrAccess" include nil nil [8429 8472])
+            ("com.ca.domain.caccore.State" include nil nil [8473 8508])
+            ("com.ca.domain.caccore.Step6Action" include nil nil [8509 8550])
+            ("com.ca.domain.caccore.Step6ActionHistory" include nil nil [8551 8599])
+            ("com.ca.domain.caccore.SystemVariable" include nil nil [8600 8644])
+            ("com.ca.domain.caccore.UserBrowserInformation" include nil nil [8645 8697])
+            ("com.ca.domain.caccore.VerificationQuestion" include nil nil [8698 8748])
+            ("com.ca.domain.caccore.VerificationQuestionType" include nil nil [8749 8803])
+            ("com.ca.domain.caccore.VlaStatusType" include nil nil [8804 8847])
+            ("com.ca.domain.caccore.WorkQueueTypePhase" include nil nil [8848 8896])
+            ("com.ca.domain.caccore.WqtWqpAssocs" include nil nil [8897 8939])
+            ("com.ca.domain.caccore.ZipCode" include nil nil [8940 8977])
+            ("com.ca.domain.casemgmt.DscCasesInUse" include nil nil [8978 9022])
+            ("com.ca.domain.constants.AcknowledgementTypeEnum" include nil nil [9023 9078])
+            ("com.ca.domain.constants.AddressTypeEnum" include nil nil [9079 9126])
+            ("com.ca.domain.constants.Caps2CustHubPhoneMapping" include nil nil [9127 9183])
+            ("com.ca.domain.constants.DealerSetVeiStatusTypeEnum" include nil nil [9184 9242])
+            ("com.ca.domain.constants.DpscNoteTypeEnum" include nil nil [9243 9291])
+            ("com.ca.domain.constants.EmployeeTypeEnum" include nil nil [9292 9340])
+            ("com.ca.domain.constants.FinanceCategorySplitEnum" include nil nil [9341 9397])
+            ("com.ca.domain.constants.StepTypeEnum" include nil nil [9398 9442])
+            ("com.ca.domain.constants.SubmitCheckListEnum" include nil nil [9443 9494])
+            ("com.ca.domain.constants.VlaStatusTypeEnum" include nil nil [9495 9544])
+            ("com.ca.domain.creditrisk.AbsBnScoreDetail" include nil nil [9545 9594])
+            ("com.ca.domain.creditrisk.BureauInquiry" include nil nil [9595 9641])
+            ("com.ca.domain.riskadmin.FinanceCategoryAndSplit" include nil nil [9642 9697])
+            ("com.ca.domain.scoring.query.wo.Step6VolumeDetailsWO" include nil nil [9698 9757])
+            ("com.ca.domain.scoring.step3reqresp.wo.MaxDealInfoWO" include nil nil [9758 9817])
+            ("com.ca.domain.steps.AddressType" include nil nil [9818 9857])
+            ("com.ca.domain.steps.AdvanceAdjustment" include nil nil [9858 9903])
+            ("com.ca.domain.steps.AdvanceAndProfit" include nil nil [9904 9948])
+            ("com.ca.domain.steps.ApplEmplVerificationDtls" include nil nil [9949 10001])
+            ("com.ca.domain.steps.ApplEmploymentsVerification" include nil nil [10002 10057])
+            ("com.ca.domain.steps.Applicant" include nil nil [10058 10095])
+            ("com.ca.domain.steps.ApplicantAddress" include nil nil [10096 10140])
+            ("com.ca.domain.steps.ApplicantAddressHistory" include nil nil [10141 10192])
+            ("com.ca.domain.steps.ApplicantBankAccount" include nil nil [10193 10241])
+            ("com.ca.domain.steps.ApplicantBankAccountHistory" include nil nil [10242 10297])
+            ("com.ca.domain.steps.ApplicantEmailAddress" include nil nil [10298 10347])
+            ("com.ca.domain.steps.ApplicantEmailAddressHistory" include nil nil [10348 10404])
+            ("com.ca.domain.steps.ApplicantEmployment" include nil nil [10405 10452])
+            ("com.ca.domain.steps.ApplicantEmploymentsHistory" include nil nil [10453 10508])
+            ("com.ca.domain.steps.ApplicantHistory" include nil nil [10509 10553])
+            ("com.ca.domain.steps.ApplicantPhone" include nil nil [10554 10596])
+            ("com.ca.domain.steps.ApplicantPhonesHistory" include nil nil [10597 10647])
+            ("com.ca.domain.steps.ApplicantReference" include nil nil [10648 10694])
+            ("com.ca.domain.steps.ApplicantReferencesHistory" include nil nil [10695 10749])
+            ("com.ca.domain.steps.ApplicantSpouseDtl" include nil nil [10750 10796])
+            ("com.ca.domain.steps.ApplicantVehInsuredHistory" include nil nil [10797 10851])
+            ("com.ca.domain.steps.ApplicantVehicleInsured" include nil nil [10852 10903])
+            ("com.ca.domain.steps.ApplicantWorkLocation" include nil nil [10904 10953])
+            ("com.ca.domain.steps.ApplicantWorkLocationHist" include nil nil [10954 11007])
+            ("com.ca.domain.steps.AuditNote" include nil nil [11008 11045])
+            ("com.ca.domain.steps.CarLotDpscMessage" include nil nil [11046 11091])
+            ("com.ca.domain.steps.DacLineItem" include nil nil [11092 11131])
+            ("com.ca.domain.steps.DealsAtContract" include nil nil [11132 11175])
+            ("com.ca.domain.steps.DealsInWork" include nil nil [11176 11215])
+            ("com.ca.domain.steps.DpscNote" include nil nil [11216 11252])
+            ("com.ca.domain.steps.EmploymentType" include nil nil [11253 11295])
+            ("com.ca.domain.steps.IncomeFrequencyTypes" include nil nil [11296 11344])
+            ("com.ca.domain.steps.PhoneType" include nil nil [11345 11382])
+            ("com.ca.domain.steps.ReassignedVlc" include nil nil [11383 11424])
+            ("com.ca.domain.steps.ReferenceType" include nil nil [11425 11466])
+            ("com.ca.domain.steps.ResidenceOwnerType" include nil nil [11467 11513])
+            ("com.ca.domain.steps.ScreenActivityLog" include nil nil [11514 11559])
+            ("com.ca.domain.steps.ShoppingCart" include nil nil [11560 11600])
+            ("com.ca.domain.steps.StepType" include nil nil [11601 11637])
+            ("com.ca.domain.steps.SubmitCheckList" include nil nil [11638 11681])
+            ("com.ca.domain.steps.VehicleLoanApplication" include nil nil [11682 11732])
+            ("com.ca.domain.steps.VehicleLoanContract" include nil nil [11733 11780])
+            ("com.ca.domain.steps.VehicleOnDeal" include nil nil [11781 11822])
+            ("com.ca.domain.steps.VerificationAnswer" include nil nil [11823 11869])
+            ("com.ca.domain.steps.VerificationPhoneCall" include nil nil [11870 11919])
+            ("com.ca.domain.steps.VlaAppxDocument" include nil nil [11920 11963])
+            ("com.ca.domain.steps.VlaDealView" include nil nil [11964 12003])
+            ("com.ca.domain.steps.VlaInfoAtVlcTime" include nil nil [12004 12048])
+            ("com.ca.domain.steps.VlaPricingMethod" include nil nil [12049 12093])
+            ("com.ca.domain.steps.VlaScoringVendorVersion" include nil nil [12094 12145])
+            ("com.ca.domain.steps.VlaStatus" include nil nil [12146 12183])
+            ("com.ca.domain.steps.VlaStatusHistory" include nil nil [12184 12228])
+            ("com.ca.domain.steps.VlaSubmitCheckList" include nil nil [12229 12275])
+            ("com.ca.domain.steps.VlaXmlToLss" include nil nil [12276 12315])
+            ("com.ca.domain.steps.VlasInUse" include nil nil [12316 12353])
+            ("com.ca.domain.steps.VlcSidDetail" include nil nil [12354 12394])
+            ("com.ca.domain.steps.WorkQueueLog" include nil nil [12395 12435])
+            ("com.ca.domain.vehinv.Vehicle" include nil nil [12436 12472])
+            ("ApplicantServiceImpl" type
+               (:typemodifiers ("public")
+                :interfaces ("ApplicantService")
+                :superclasses "BaseService"
+                :members 
+                  ( ("emailService" variable
+                       (:typemodifiers ("private")
+                        :type "EmailService")
+                        (reparse-symbol class_member_declaration) [12903 12937])
+                    ("dealerSetupService" variable
+                       (:typemodifiers ("private")
+                        :type "DealerSetupService")
+                        (reparse-symbol class_member_declaration) [12988 13034])
+                    ("initializationService" variable
+                       (:typemodifiers ("private")
+                        :type "InitializationService")
+                        (reparse-symbol class_member_declaration) [13088 13140])
+                    ("dealerTrackSendService" variable
+                       (:typemodifiers ("private")
+                        :type "DealerTrackSendService")
+                        (reparse-symbol class_member_declaration) [13195 13249])
+                    ("routeOneSendService" variable
+                       (:typemodifiers ("private")
+                        :type "RouteOneSendService")
+                        (reparse-symbol class_member_declaration) [13301 13349])
+                    ("caseManagementService" variable
+                       (:typemodifiers ("private")
+                        :type "CaseManagementService")
+                        (reparse-symbol class_member_declaration) [13461 13513])
+                    ("customerHubService" variable
+                       (:typemodifiers ("private")
+                        :type "CustomerHubService")
+                        (reparse-symbol class_member_declaration) [13564 13610])
+                    ("appXtenderService" variable
+                       (:typemodifiers ("private")
+                        :type "AppXtenderClientService")
+                        (reparse-symbol class_member_declaration) [13666 13716])
+                    ("logger" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "Logger")
+                        (reparse-symbol class_member_declaration) [13722 13811])
+                    ("contentType" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [13819 13853])
+                    ("getContentType" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [13859 13925])
+                    ("getPhoneTypes" function
+                       (:constructor-flag t
+                        :throws ("ServiceException"))
+                        (reparse-symbol class_member_declaration) [13952 14527])
+                    ("getStatesTypes" function
+                       (:constructor-flag t
+                        :throws ("ServiceException"))
+                        (reparse-symbol class_member_declaration) [14553 15283])
+                    ("getSuffixTypes" function
+                       (:constructor-flag t
+                        :throws ("ServiceException"))
+                        (reparse-symbol class_member_declaration) [15309 15829])
+                    ("getResidanceOwnerTypes" function
+                       (:constructor-flag t
+                        :throws ("ServiceException"))
+                        (reparse-symbol class_member_declaration) [15855 16617])
+                    ("getIncomFrequencyTypes" function
+                       (:constructor-flag t
+                        :throws ("ServiceException"))
+                        (reparse-symbol class_member_declaration) [16643 17370])
+                    ("getEmploymentTypes" function
+                       (:constructor-flag t
+                        :throws ("ServiceException"))
+                        (reparse-symbol class_member_declaration) [17398 18127])
+                    ("getReferenceTypes" function
+                       (:constructor-flag t
+                        :throws ("ServiceException"))
+                        (reparse-symbol class_member_declaration) [18153 18844])
+                    ("getStateAndCity" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("zipCode" variable (:type "String") (reparse-symbol formal_parameters) [18901 18915]))                          
+                        :type "ZipCode")
+                        (reparse-symbol class_member_declaration) [18870 19699])
+                    ("createNewVehicleLoanApplication" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("newVehicleLoanApplicationWO" variable (:type "NewVehicleLoanApplicationWO") (reparse-symbol formal_parameters) [19799 19854]))                          
+                        :type "VehicleLoanApplication")
+                        (reparse-symbol class_member_declaration) [19737 35245])
+                    ("saveVlaScoringVendorVersions" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("savedLoanApplication" variable (:type "VehicleLoanApplication") (reparse-symbol formal_parameters) [35293 35336]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [35251 36151])
+                    ("saveStep1Application" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("vehicleLoanApplicationWO" variable (:type "VehicleLoanApplicationWO") (reparse-symbol formal_parameters) [36230 36279])
+                            ("dlrID" variable (:type "String") (reparse-symbol formal_parameters) [36282 36294])
+                            ("isMinimalInfo" variable (:type "String") (reparse-symbol formal_parameters) [36296 36316])
+                            ("isSensitiveInfoChanged" variable (:type "boolean") (reparse-symbol formal_parameters) [36318 36348])
+                            ("isViewPullBureau" variable (:type "boolean") (reparse-symbol formal_parameters) [36350 36374])
+                            ("dlrState" variable (:type "String") (reparse-symbol formal_parameters) [36376 36391]))                          
+                        :type "VehicleLoanApplicationWO")
+                        (reparse-symbol class_member_declaration) [36177 45312])
+                    ("flipDriverAndSigner" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("savedVehicleLoanApplicationWO" variable (:type "VehicleLoanApplicationWO") (reparse-symbol formal_parameters) [45351 45405])
+                            ("vla" variable (:type "VehicleLoanApplication") (reparse-symbol formal_parameters) [45407 45433])
+                            ("dlrId" variable (:type "String") (reparse-symbol formal_parameters) [45436 45448]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [45318 47885])
+                    ("saveNewApplication" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("applicantWO" variable (:type "ApplicantWO") (reparse-symbol formal_parameters) [47931 47954]))                          
+                        :type "ApplicantWO")
+                        (reparse-symbol class_member_declaration) [47892 53334])
+                    ("saveVlasSubmitCheckListByApplicant" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [53415 53434])
+                            ("name" variable (:type "String") (reparse-symbol formal_parameters) [53436 53447]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [53367 53874])
+                    ("getSsnAdvanceGroupForPortfolio" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("last2DigitSsn" variable (:type "String") (reparse-symbol formal_parameters) [54255 54275])
+                            ("portfolioCombo" variable (:type "String") (reparse-symbol formal_parameters) [54277 54298]))                          
+                        :type "Long")
+                        (reparse-symbol class_member_declaration) [54211 54810])
+                    ("getSsnAdvanceGroupForPurchase" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("last2DigitSsn" variable (:type "String") (reparse-symbol formal_parameters) [54859 54879])
+                            ("purchaseCombo" variable (:type "String") (reparse-symbol formal_parameters) [54881 54901]))                          
+                        :type "Long")
+                        (reparse-symbol class_member_declaration) [54816 55410])
+                    ("getDealSummaryWO" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [55488 55498]))                          
+                        :type "DealSummaryWO")
+                        (reparse-symbol class_member_declaration) [55450 58562])
+                    ("getDealSummaryApplicantWOs" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("" variable (:type "list") (reparse-symbol formal_parameters) [58681 58685]))                          )
+                        (reparse-symbol class_member_declaration) [58639 66713])
+                    ("getDealSummaryApplicantWOList" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [66805 66815]))                          )
+                        (reparse-symbol class_member_declaration) [66775 67485])
+                    ("getDealSummaryApplicantList" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [67577 67587]))                          )
+                        (reparse-symbol class_member_declaration) [67549 68112])
+                    ("getVehLoanApplicants" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("pk" variable (:type "Long") (reparse-symbol formal_parameters) [68207 68214]))                          
+                        :type "VehicleLoanApplicationWO")
+                        (reparse-symbol class_member_declaration) [68154 73541])
+                    ("getApplicantWO" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [73669 73688]))                          
+                        :type "ApplicantWO")
+                        (reparse-symbol class_member_declaration) [73634 78428])
+                    ("deleteSecondSignerApplicant" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [78524 78543]))                          
+                        :type "Applicant")
+                        (reparse-symbol class_member_declaration) [78479 83651])
+                    ("getApplicantAddress" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [83709 83728]))                          )
+                        (reparse-symbol class_member_declaration) [83689 84378])
+                    ("getApplicantEmailAddress" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [84444 84463]))                          )
+                        (reparse-symbol class_member_declaration) [84419 85126])
+                    ("getApplicantPhone" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [85178 85197]))                          )
+                        (reparse-symbol class_member_declaration) [85160 85832])
+                    ("getApplicantVehicleInsured" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [85902 85921]))                          )
+                        (reparse-symbol class_member_declaration) [85875 86619])
+                    ("getApplicantEmployment" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [86684 86703]))                          )
+                        (reparse-symbol class_member_declaration) [86661 87391])
+                    ("getApplicantWorkLocation" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("applicantEmployment" variable (:type "ApplicantEmployment") (reparse-symbol formal_parameters) [87452 87491]))                          
+                        :type "ApplicantWorkLocation")
+                        (reparse-symbol class_member_declaration) [87398 88411])
+                    ("getApplicantBankAccounts" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [88477 88496]))                          )
+                        (reparse-symbol class_member_declaration) [88452 89194])
+                    ("getApplicantBankAccount" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [89252 89271]))                          
+                        :type "ApplicantBankAccount")
+                        (reparse-symbol class_member_declaration) [89200 90151])
+                    ("saveStep2NewTx" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("vehicleLoanApplicationWO" variable (:type "VehicleLoanApplicationWO") (reparse-symbol formal_parameters) [90224 90273])
+                            ("isSensitiveInfoChanged" variable (:type "boolean") (reparse-symbol formal_parameters) [90275 90305]))                          
+                        :type "VehicleLoanApplicationWO")
+                        (reparse-symbol class_member_declaration) [90177 99424])
+                    ("getStep2MultiBrowserCheckVehicleLoanApplicationWO" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("vehicleLoanApplicationWO" variable (:type "VehicleLoanApplicationWO") (reparse-symbol formal_parameters) [99514 99563])
+                            ("applicantWO" variable (:type "ApplicantWO") (reparse-symbol formal_parameters) [99565 99588])
+                            ("applicantName" variable (:type "String") (reparse-symbol formal_parameters) [99589 99609]))                          
+                        :type "VehicleLoanApplicationWO")
+                        (reparse-symbol class_member_declaration) [99431 109478])
+                    ("saveStep2ApplicantInfo" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("applicantWO" variable (:type "ApplicantWO") (reparse-symbol formal_parameters) [111708 111731])
+                            ("" variable (:type "String") (reparse-symbol formal_parameters) [111737 111743])
+                            ("" variable (:type "payListMap") (reparse-symbol formal_parameters) [111753 111763]))                          
+                        :type "ApplicantWO")
+                        (reparse-symbol class_member_declaration) [111665 118684])
+                    ("setTimeAtJobBasedOnMaxTotalGrossPay" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("primaryEmployment" variable (:type "ApplicantEmployment") (reparse-symbol formal_parameters) [118741 118778])
+                            ("secondaryEmployment" variable (:type "ApplicantEmployment") (reparse-symbol formal_parameters) [118779 118818])
+                            ("thirdEmployment" variable (:type "ApplicantEmployment") (reparse-symbol formal_parameters) [118819 118854])
+                            ("appCreationDate" variable (:type "DateTime") (reparse-symbol formal_parameters) [118856 118880]))                          
+                        :type "Double")
+                        (reparse-symbol class_member_declaration) [118690 121988])
+                    ("getTheTimeAtJobFromAPEGrossPay" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("pay1" variable (:type "Double") (reparse-symbol formal_parameters) [122040 122051])
+                            ("pay2" variable (:type "Double") (reparse-symbol formal_parameters) [122052 122063])
+                            ("pay3" variable (:type "Double") (reparse-symbol formal_parameters) [122064 122075])
+                            ("primaryHireDate" variable (:type "DateTime") (reparse-symbol formal_parameters) [122076 122100])
+                            ("secondaryHireDate" variable (:type "DateTime") (reparse-symbol formal_parameters) [122101 122127])
+                            ("thirdHireDate" variable (:type "DateTime") (reparse-symbol formal_parameters) [122128 122150])
+                            ("primaryEmpType" variable (:type "String") (reparse-symbol formal_parameters) [122151 122172])
+                            ("secondaryEmpType" variable (:type "String") (reparse-symbol formal_parameters) [122173 122196])
+                            ("thirdEmpType" variable (:type "String") (reparse-symbol formal_parameters) [122197 122216])
+                            ("Type" variable (:type "int") (reparse-symbol formal_parameters) [122217 122225])
+                            ("appCreationDate" variable (:type "DateTime") (reparse-symbol formal_parameters) [122227 122251]))                          
+                        :type "Double")
+                        (reparse-symbol class_member_declaration) [121994 124350])
+                    ("getTheTimeAtJobFromHireDate" function
+                       (:typemodifiers ("private" "static")
+                        :arguments 
+                          ( ("hireDate" variable (:type "DateTime") (reparse-symbol formal_parameters) [124406 124423])
+                            ("appCreationDate" variable (:type "DateTime") (reparse-symbol formal_parameters) [124425 124449]))                          
+                        :type "Double")
+                        (reparse-symbol class_member_declaration) [124356 124881])
+                    ("getApplResidentTypeRef" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [124938 124957]))                          
+                        :type "ApplicantReference")
+                        (reparse-symbol class_member_declaration) [124889 125839])
+                    ("getVehicleLoanApplication" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("pk" variable (:type "Long") (reparse-symbol formal_parameters) [126952 126959]))                          
+                        :type "VehicleLoanApplication")
+                        (reparse-symbol class_member_declaration) [126896 128047])
+                    ("getSSNLookUpData" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("ssn" variable (:type "String") (reparse-symbol formal_parameters) [128144 128154])
+                            ("carLotPk" variable (:type "Long") (reparse-symbol formal_parameters) [128156 128169]))                          )
+                        (reparse-symbol class_member_declaration) [128127 131690])
+                    ("getList" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("" variable (:type "list") (reparse-symbol formal_parameters) [131746 131750]))                          )
+                        (reparse-symbol class_member_declaration) [131723 134028])
+                    ("getSSNWOList" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("ssn" variable (:type "String") (reparse-symbol formal_parameters) [134091 134101])
+                            ("dealerId" variable (:type "String") (reparse-symbol formal_parameters) [134103 134118]))                          )
+                        (reparse-symbol class_member_declaration) [134078 134706])
+                    ("getSSNList" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("ssn" variable (:type "String") (reparse-symbol formal_parameters) [134781 134791])
+                            ("dealerId" variable (:type "String") (reparse-symbol formal_parameters) [134793 134808]))                          )
+                        (reparse-symbol class_member_declaration) [134770 135463])
+                    ("copySSNLookUpData" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("appID" variable (:type "Long") (reparse-symbol formal_parameters) [135539 135549]))                          
+                        :type "VehicleLoanApplicationWO")
+                        (reparse-symbol class_member_declaration) [135489 136887])
+                    ("useExistingSSNLookUpData" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("appID" variable (:type "Long") (reparse-symbol formal_parameters) [136951 136961]))                          
+                        :type "VehicleLoanApplicationWO")
+                        (reparse-symbol class_member_declaration) [136894 137685])
+                    ("removePKForCopySSN" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("applicantWO" variable (:type "ApplicantWO") (reparse-symbol formal_parameters) [137730 137753]))                          
+                        :type "ApplicantWO")
+                        (reparse-symbol class_member_declaration) [137691 165290])
+                    ("getApplicantList" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("carLotPK" variable (:type "Long") (reparse-symbol formal_parameters) [165336 165349])
+                            ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [165351 165361]))                          )
+                        (reparse-symbol class_member_declaration) [165319 166146])
+                    ("getApplicantHistory" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [166196 166215]))                          
+                        :type "ApplicantHistory")
+                        (reparse-symbol class_member_declaration) [166152 166815])
+                    ("getApplicantAddressHistory" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [166879 166898]))                          
+                        :type "ApplicantAddressHistory")
+                        (reparse-symbol class_member_declaration) [166821 168177])
+                    ("getApplicantPhonesHistory" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [168239 168258]))                          
+                        :type "ApplicantPhonesHistory")
+                        (reparse-symbol class_member_declaration) [168183 169405])
+                    ("getNonWorkApplicantPhonesHistory" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [169475 169494]))                          
+                        :type "ApplicantPhonesHistory")
+                        (reparse-symbol class_member_declaration) [169412 171531])
+                    ("getUnreadMail" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("dlrId" variable (:type "String") (reparse-symbol formal_parameters) [171576 171588]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [171551 172247])
+                    ("getFinanceCategoryNSplitValues" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("carLotEmployeePk" variable (:type "Long") (reparse-symbol formal_parameters) [172312 172333]))                          )
+                        (reparse-symbol class_member_declaration) [172281 172989])
+                    ("saveApplicantReference" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("" variable (:type "applicantReferenceList") (reparse-symbol formal_parameters) [173095 173117]))                          )
+                        (reparse-symbol class_member_declaration) [173047 173649])
+                    ("getState" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("abbr" variable (:type "String") (reparse-symbol formal_parameters) [173678 173689]))                          
+                        :type "State")
+                        (reparse-symbol class_member_declaration) [173656 174024])
+                    ("getDriver" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [174057 174067]))                          
+                        :type "Applicant")
+                        (reparse-symbol class_member_declaration) [174030 174803])
+                    ("getSecondSigner" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [174856 174866]))                          
+                        :type "Applicant")
+                        (reparse-symbol class_member_declaration) [174823 175602])
+                    ("getApplicantsList" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [175649 175659]))                          )
+                        (reparse-symbol class_member_declaration) [175631 176207])
+                    ("getScorerApplicant" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [176249 176259]))                          
+                        :type "Applicant")
+                        (reparse-symbol class_member_declaration) [176213 176976])
+                    ("getApplicantReferences" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [177039 177058]))                          )
+                        (reparse-symbol class_member_declaration) [177016 177721])
+                    ("getPostSubmitApplicantReferences" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [177792 177811]))                          )
+                        (reparse-symbol class_member_declaration) [177759 181439])
+                    ("getAllApplicantReferences" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [181504 181523]))                          )
+                        (reparse-symbol class_member_declaration) [181478 182166])
+                    ("getApplicantResidenceTypeReference" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [182233 182252]))                          
+                        :type "ApplicantReference")
+                        (reparse-symbol class_member_declaration) [182172 183149])
+                    ("getApplicantReferenceByResidenceType" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [183218 183237])
+                            ("residenceOwnerType" variable (:type "ResidenceOwnerType") (reparse-symbol formal_parameters) [183239 183276]))                          
+                        :type "ApplicantReference")
+                        (reparse-symbol class_member_declaration) [183155 184161])
+                    ("saveStep5CreditApplication" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("vehicleLoanApplicationWO" variable (:type "VehicleLoanApplicationWO") (reparse-symbol formal_parameters) [184225 184274])
+                            ("dlrID" variable (:type "String") (reparse-symbol formal_parameters) [184277 184289])
+                            ("isMinimalInfo" variable (:type "String") (reparse-symbol formal_parameters) [184291 184311])
+                            ("menuName" variable (:type "String") (reparse-symbol formal_parameters) [184313 184328])
+                            ("vlaSubmitCheckList" variable (:type "VlaSubmitCheckList") (reparse-symbol formal_parameters) [184330 184367]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [184186 188866])
+                    ("getCarDealershipEmployeeListByDealerId" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("dealerId" variable (:type "String") (reparse-symbol formal_parameters) [188931 188946]))                          )
+                        (reparse-symbol class_member_declaration) [188892 190115])
+                    ("getCarDealershipEmployeeMapByDealerId" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("dealerId" variable (:type "String") (reparse-symbol formal_parameters) [191626 191641]))                          )
+                        (reparse-symbol class_member_declaration) [191588 192483])
+                    ("getCarLotEmployeeByCarDealershipEmployee" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("carDealershipEmployee" variable (:type "CarDealershipEmployee") (reparse-symbol formal_parameters) [192558 192601]))                          )
+                        (reparse-symbol class_member_declaration) [192517 193234])
+                    ("getCarLotEmployeeByPk" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("pk" variable (:type "String") (reparse-symbol formal_parameters) [193284 193293]))                          
+                        :type "CarLotEmployee")
+                        (reparse-symbol class_member_declaration) [193240 193549])
+                    ("getSubmitCheckList" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("name" variable (:type "String") (reparse-symbol formal_parameters) [193597 193608]))                          
+                        :type "SubmitCheckList")
+                        (reparse-symbol class_member_declaration) [193555 194197])
+                    ("getVlaSubmitCheckList" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [194251 194261]))                          
+                        :type "VlaSubmitCheckList")
+                        (reparse-symbol class_member_declaration) [194203 194693])
+                    ("getVlaSubmitCheckListValues" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [194759 194769]))                          )
+                        (reparse-symbol class_member_declaration) [194731 195318])
+                    ("saveVlaSubmitCheckList" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("vlaSubmitCheckList" variable (:type "VlaSubmitCheckList") (reparse-symbol formal_parameters) [195413 195450]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [195378 195674])
+                    ("saveVlaSubmitCheckListList" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("" variable (:type "vlaSubmitCheckList") (reparse-symbol formal_parameters) [195763 195781]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [195699 196008])
+                    ("getVlaSubMitCheckLists" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [196076 196086]))                          )
+                        (reparse-symbol class_member_declaration) [196053 197149])
+                    ("getCarletonMinAgeForAllStates" function
+                       (:constructor-flag t
+                        :throws ("ServiceException"))
+                        (reparse-symbol class_member_declaration) [197182 197966])
+                    ("getAbsBnScoreDetail" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [198016 198035]))                          
+                        :type "AbsBnScoreDetail")
+                        (reparse-symbol class_member_declaration) [197972 198467])
+                    ("getApplicantCurrentAddress" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [198538 198557]))                          
+                        :type "ApplicantAddress")
+                        (reparse-symbol class_member_declaration) [198487 199301])
+                    ("updateDealStatus" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("vehicleLoanApplication" variable (:type "VehicleLoanApplication") (reparse-symbol formal_parameters) [199341 199386]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [199308 201398])
+                    ("getVlaStatus" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("vlaPk" variable (:type "Long") (reparse-symbol formal_parameters) [202272 202282]))                          
+                        :type "VlaStatus")
+                        (reparse-symbol class_member_declaration) [202242 203276])
+                    ("getAppStatus" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("appID" variable (:type "Long") (reparse-symbol formal_parameters) [203310 203320]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [203283 203875])
+                    ("getCurrenVlaStatus" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("appID" variable (:type "Long") (reparse-symbol formal_parameters) [203929 203939]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [203896 204656])
+                    ("getCurrentWorkQueuePhase" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("appID" variable (:type "Long") (reparse-symbol formal_parameters) [204715 204725]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [204676 205430])
+                    ("getDealsInWork" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("vehicleLoanApplication" variable (:type "VehicleLoanApplication") (reparse-symbol formal_parameters) [205470 205515]))                          
+                        :type "DealsInWork")
+                        (reparse-symbol class_member_declaration) [205436 207013])
+                    ("changeStatusOnVlaDiwDacStatus" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("vlaPk" variable (:type "Long") (reparse-symbol formal_parameters) [207336 207346])
+                            ("diwPk" variable (:type "Long") (reparse-symbol formal_parameters) [207347 207357])
+                            ("vlaDiwVlcStatusTypes" variable (:type "VlaStatusType") (reparse-symbol formal_parameters) [207359 207393])
+                            ("dacPk" variable (:type "Long") (reparse-symbol formal_parameters) [207395 207405]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [207292 209047])
+                    ("saveVlaInfoAtVlcTime" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("vlaInfoAtVlcTime" variable (:type "VlaInfoAtVlcTime") (reparse-symbol formal_parameters) [212890 212923]))                          
+                        :type "VlaInfoAtVlcTime")
+                        (reparse-symbol class_member_declaration) [212845 213158])
+                    ("getVlaInfoAtVlcTimeHistoryWO" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [213245 213255]))                          
+                        :type "VlaInfoAtVlcTimeHistoryWO")
+                        (reparse-symbol class_member_declaration) [213183 214509])
+                    ("getPostSubmitApplicant" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [221930 221949])
+                            ("localApplicantWO" variable (:type "ApplicantWO") (reparse-symbol formal_parameters) [221951 221979]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [221894 223895])
+                    ("getPostSubmitApplicantAddress" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [223944 223963])
+                            ("localApplicantWO" variable (:type "ApplicantWO") (reparse-symbol formal_parameters) [223965 223993]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [223901 226522])
+                    ("getPostSubmitApplicantEmailAddressList" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [226580 226599])
+                            ("localApplicantWO" variable (:type "ApplicantWO") (reparse-symbol formal_parameters) [226601 226629]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [226528 228026])
+                    ("getPostSubmitApplicantPhoneList" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [228077 228096])
+                            ("localApplicantWO" variable (:type "ApplicantWO") (reparse-symbol formal_parameters) [228098 228126]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [228032 229578])
+                    ("getPostSubmitApplicantVehInsured" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [229630 229649])
+                            ("localApplicantWO" variable (:type "ApplicantWO") (reparse-symbol formal_parameters) [229651 229679]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [229584 232002])
+                    ("getPostSubmitApplicantEmploymentAndWrkLocs" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [232064 232083])
+                            ("localApplicantWO" variable (:type "ApplicantWO") (reparse-symbol formal_parameters) [232085 232113]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [232008 240957])
+                    ("getPostSubmitApplicantBankAccount" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [241010 241029])
+                            ("localApplicantWO" variable (:type "ApplicantWO") (reparse-symbol formal_parameters) [241031 241059]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [240963 242506])
+                    ("getPostSubmitApplicantReferenceForResidenceType" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [242574 242593])
+                            ("localApplicantWO" variable (:type "ApplicantWO") (reparse-symbol formal_parameters) [242595 242623]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [242513 245554])
+                    ("getPostSubmitDealSummaryApplicantWO" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [245648 245667]))                          
+                        :type "DealSummaryApplicantWO")
+                        (reparse-symbol class_member_declaration) [245581 246521])
+                    ("getPostSubmitDealSummaryApplicant" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [246574 246593])
+                            ("dealSummaryApplicantWO" variable (:type "DealSummaryApplicantWO") (reparse-symbol formal_parameters) [246595 246640]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [246527 247583])
+                    ("getPostSubmitDealSummaryApplicantAddress" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [247643 247662])
+                            ("dealSummaryApplicantWO" variable (:type "DealSummaryApplicantWO") (reparse-symbol formal_parameters) [247664 247709]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [247589 249212])
+                    ("getPostSubmitDealSummaryApplicantPhone" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [249270 249289])
+                            ("dealSummaryApplicantWO" variable (:type "DealSummaryApplicantWO") (reparse-symbol formal_parameters) [249291 249336]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [249218 250258])
+                    ("getPostSubmitDealSummaryApplicantEmployment" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [250323 250342])
+                            ("dealSummaryApplicantWO" variable (:type "DealSummaryApplicantWO") (reparse-symbol formal_parameters) [250344 250389]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [250266 255891])
+                    ("getPostSubmitDealSummaryApplicantBankAccount" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [255955 255974])
+                            ("dealSummaryApplicantWO" variable (:type "DealSummaryApplicantWO") (reparse-symbol formal_parameters) [255975 256020]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [255897 257009])
+                    ("getPreSubmitApplicantWO" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [257093 257112]))                          
+                        :type "ApplicantWO")
+                        (reparse-symbol class_member_declaration) [257050 258225])
+                    ("getPreSubmitApplicantAddresses" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [258275 258294])
+                            ("localApplicantWO" variable (:type "ApplicantWO") (reparse-symbol formal_parameters) [258296 258324]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [258231 259126])
+                    ("getPreSubmitApplicantEmailAddressList" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [259183 259202])
+                            ("localApplicantWO" variable (:type "ApplicantWO") (reparse-symbol formal_parameters) [259204 259232]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [259132 259551])
+                    ("getPreSubmitApplicantPhoneList" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [259601 259620])
+                            ("localApplicantWO" variable (:type "ApplicantWO") (reparse-symbol formal_parameters) [259622 259650]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [259557 259950])
+                    ("getPreSubmitApplicantVehInsured" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [260001 260020])
+                            ("localApplicantWO" variable (:type "ApplicantWO") (reparse-symbol formal_parameters) [260022 260050]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [259956 260521])
+                    ("getPreSubmitApplicantBankAccount" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [260573 260592])
+                            ("localApplicantWO" variable (:type "ApplicantWO") (reparse-symbol formal_parameters) [260594 260622]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [260527 261073])
+                    ("getPreSubmitApplicantReferenceForResidenceType" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [261140 261159])
+                            ("localApplicantWO" variable (:type "ApplicantWO") (reparse-symbol formal_parameters) [261161 261189]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [261080 261889])
+                    ("getPreSubmitApplicantEmploymentAndWrkLocs" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [261951 261970])
+                            ("localApplicantWO" variable (:type "ApplicantWO") (reparse-symbol formal_parameters) [261972 262000]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [261896 263757])
+                    ("getPostSubmitApplicantWO" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [263840 263859]))                          
+                        :type "ApplicantWO")
+                        (reparse-symbol class_member_declaration) [263796 283592])
+                    ("getLatestApplicantFromHistory" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [283666 283685]))                          
+                        :type "ApplicantHistory")
+                        (reparse-symbol class_member_declaration) [283612 284412])
+                    ("getLatestApplicantAddressHistory" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [284539 284558]))                          )
+                        (reparse-symbol class_member_declaration) [284506 285387])
+                    ("getLatestApplicantBankAccountHistory" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [285515 285534]))                          
+                        :type "ApplicantBankAccountHistory")
+                        (reparse-symbol class_member_declaration) [285443 286481])
+                    ("getLatestApplicantEmploymentsHistory" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [286615 286634]))                          )
+                        (reparse-symbol class_member_declaration) [286578 287549])
+                    ("getLatestApplicantWorkLocationHist" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [287679 287698]))                          )
+                        (reparse-symbol class_member_declaration) [287644 289060])
+                    ("getAtVlcTimeApplicantHistoryWO" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [289158 289177]))                          
+                        :type "VlaInfoAtVlcTimeApplicantHistoryWO")
+                        (reparse-symbol class_member_declaration) [289085 295187])
+                    ("saveVlaInfoAtVlcTime" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("vehicleLoanApplication" variable (:type "VehicleLoanApplication") (reparse-symbol formal_parameters) [295245 295290])
+                            ("vehicleLoanContract" variable (:type "VehicleLoanContract") (reparse-symbol formal_parameters) [295291 295330]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [295212 296158])
+                    ("setVlauesToVlaInfoAtVlcTime" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [296205 296224])
+                            ("vehicleLoanApplication" variable (:type "VehicleLoanApplication") (reparse-symbol formal_parameters) [296225 296270])
+                            ("vehicleLoanContract" variable (:type "VehicleLoanContract") (reparse-symbol formal_parameters) [296271 296310]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [296165 306925])
+                    ("submitDeal" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("vehicleLoanApplication" variable (:type "VehicleLoanApplication") (reparse-symbol formal_parameters) [307192 307237])
+                            ("diwPk" variable (:type "Long") (reparse-symbol formal_parameters) [307238 307248])
+                            ("vlaDiwVlcStatusTypes" variable (:type "VlaStatusType") (reparse-symbol formal_parameters) [307250 307284]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [307167 308339])
+                    ("getVlaDiwVlcStatusHistory" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("vehicleLoanApplication" variable (:type "VehicleLoanApplication") (reparse-symbol formal_parameters) [308395 308440])
+                            ("vlaDiwVlcStatusTypes" variable (:type "VlaStatusType") (reparse-symbol formal_parameters) [308442 308476]))                          
+                        :type "VlaStatusHistory")
+                        (reparse-symbol class_member_declaration) [308345 309414])
+                    ("getVlaDiwVlcStatusHistoryLastUpdatedByDate" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("vehicleLoanApplication" variable (:type "VehicleLoanApplication") (reparse-symbol formal_parameters) [309493 309538])
+                            ("vlaDiwVlcStatusTypes" variable (:type "VlaStatusType") (reparse-symbol formal_parameters) [309540 309574]))                          
+                        :type "DateTime")
+                        (reparse-symbol class_member_declaration) [309434 310272])
+                    ("getApplicantHistoryFromVlaInfoAtVlc" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [310353 310372]))                          
+                        :type "ApplicantHistory")
+                        (reparse-symbol class_member_declaration) [310293 310950])
+                    ("getEmploymentHistoryFromVlaInfoAtVlc" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("employment" variable (:type "ApplicantEmployment") (reparse-symbol formal_parameters) [311042 311072]))                          
+                        :type "ApplicantEmploymentsHistory")
+                        (reparse-symbol class_member_declaration) [310970 311678])
+                    ("getAddressHistoryFromVlaInfoAtVlc" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("address" variable (:type "ApplicantAddress") (reparse-symbol formal_parameters) [311763 311787]))                          
+                        :type "ApplicantAddressHistory")
+                        (reparse-symbol class_member_declaration) [311698 312373])
+                    ("getBankAccountHistoryFromVlaInfoAtVlc" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("bank" variable (:type "ApplicantBankAccount") (reparse-symbol formal_parameters) [312466 312491]))                          
+                        :type "ApplicantBankAccountHistory")
+                        (reparse-symbol class_member_declaration) [312393 313079])
+                    ("getEmployementListFromVlaInfoAtVlc" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [313211 313230]))                          )
+                        (reparse-symbol class_member_declaration) [313176 313923])
+                    ("getLastUpdatedDateTimeFromEmpHistory" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("employment" variable (:type "ApplicantEmployment") (reparse-symbol formal_parameters) [314032 314062]))                          
+                        :type "DateTime")
+                        (reparse-symbol class_member_declaration) [313979 314489])
+                    ("getMinMaxvaluesOfAdvAdj" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("carLot" variable (:type "CarLot") (reparse-symbol formal_parameters) [314562 314575])
+                            ("appID" variable (:type "Long") (reparse-symbol formal_parameters) [314577 314587])
+                            ("roleName" variable (:type "String") (reparse-symbol formal_parameters) [314589 314604])
+                            ("type" variable (:type "String") (reparse-symbol formal_parameters) [314606 314617]))                          
+                        :type "Step6MinMaxAdvAdjWO")
+                        (reparse-symbol class_member_declaration) [314511 316852])
+                    ("getStep6ViewAllNotesWOList" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("searchName" variable (:type "String") (reparse-symbol formal_parameters) [317011 317028])
+                            ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [317030 317040]))                          )
+                        (reparse-symbol class_member_declaration) [316984 320919])
+                    ("getApplicationAdvanceAdjNotes" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [321018 321028]))                          )
+                        (reparse-symbol class_member_declaration) [320988 322532])
+                    ("getApplicationVerificationNotesHistory" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [322611 322621]))                          )
+                        (reparse-symbol class_member_declaration) [322572 325343])
+                    ("getApplicationsAreAH" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("carLot" variable (:type "CarLot") (reparse-symbol formal_parameters) [325446 325459]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [325414 326904])
+                    ("appendhttptextToAddress" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("WebsiteAddress" variable (:type "String") (reparse-symbol formal_parameters) [326949 326970]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [326911 327118])
+                    ("getStep6AdditionalInfoWO" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("vehicleLoanApplication" variable (:type "VehicleLoanApplication") (reparse-symbol formal_parameters) [327256 327301])
+                            ("carLot" variable (:type "CarLot") (reparse-symbol formal_parameters) [327303 327316]))                          
+                        :type "Step6AdditionalInfoWO")
+                        (reparse-symbol class_member_declaration) [327202 336921])
+                    ("getReAssignmentInInsertMode" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("vehicleLoanApplication" variable (:type "VehicleLoanApplication") (reparse-symbol formal_parameters) [337030 337075])
+                            ("carLot" variable (:type "CarLot") (reparse-symbol formal_parameters) [337077 337090]))                          
+                        :type "Step6ReAssignmentWO")
+                        (reparse-symbol class_member_declaration) [336975 340209])
+                    ("getReAssignmentInUpdateMode" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("vehicleLoanApplication" variable (:type "VehicleLoanApplication") (reparse-symbol formal_parameters) [340318 340363]))                          
+                        :type "Step6ReAssignmentWO")
+                        (reparse-symbol class_member_declaration) [340263 345754])
+                    ("updateReAssignmentInfo" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("step6ReAssignmentWO" variable (:type "Step6ReAssignmentWO") (reparse-symbol formal_parameters) [345837 345876]))                          
+                        :type "VlaStatusType")
+                        (reparse-symbol class_member_declaration) [345793 350810])
+                    ("saveReAssignmentInfo" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("step6ReAssignmentWO" variable (:type "Step6ReAssignmentWO") (reparse-symbol formal_parameters) [350891 350930]))                          
+                        :type "VlaStatusType")
+                        (reparse-symbol class_member_declaration) [350849 360416])
+                    ("sendReAssignmentEmail" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [360457 360467]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [360422 361707])
+                    ("getNextVlaStatusTypeCount" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [361799 361809]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [361762 363445])
+                    ("getStep6VolumeDetails" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("dealerId" variable (:type "String") (reparse-symbol formal_parameters) [363595 363610]))                          )
+                        (reparse-symbol class_member_declaration) [363573 364461])
+                    ("getStep6VolumeDetailsObj" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("" variable (:type "step6VolumeDetailsObjList") (reparse-symbol formal_parameters) [364611 364636]))                          )
+                        (reparse-symbol class_member_declaration) [364573 367074])
+                    ("saveStatusForExitScreen" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [367149 367159])
+                            ("status" variable (:type "String") (reparse-symbol formal_parameters) [367161 367174])
+                            ("phase" variable (:type "String") (reparse-symbol formal_parameters) [367176 367188]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [367113 374609])
+                    ("deleteVlaInUse" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [374675 374685]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [374648 375478])
+                    ("updateWorkQueueLog" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("workQueueLogId" variable (:type "Long") (reparse-symbol formal_parameters) [375548 375567])
+                            ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [375569 375579]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [375517 376589])
+                    ("updateWorkQueueLogForReassign" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("workQueueLogId" variable (:type "Long") (reparse-symbol formal_parameters) [376670 376689])
+                            ("vlaStatusType" variable (:type "VlaStatusType") (reparse-symbol formal_parameters) [376691 376718]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [376628 377204])
+                    ("updateWorkQueueLogForExit" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("workQueueLogPk" variable (:type "Long") (reparse-symbol formal_parameters) [377282 377301])
+                            ("status" variable (:type "String") (reparse-symbol formal_parameters) [377303 377316])
+                            ("wqtWqpAssocs" variable (:type "WqtWqpAssocs") (reparse-symbol formal_parameters) [377318 377343]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [377244 378003])
+                    ("getVlaStatusType" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("statusType" variable (:type "String") (reparse-symbol formal_parameters) [378080 378097]))                          
+                        :type "VlaStatusType")
+                        (reparse-symbol class_member_declaration) [378042 378585])
+                    ("getReassignmentReasonTypes" function
+                       (:constructor-flag t
+                        :throws ("ServiceException"))
+                        (reparse-symbol class_member_declaration) [378611 379604])
+                    ("getStep6StatusHistoryWOList" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [379755 379765]))                          )
+                        (reparse-symbol class_member_declaration) [379727 382119])
+                    ("getAdvanceAdjustmentSubTypes" function
+                       (:constructor-flag t
+                        :throws ("ServiceException"))
+                        (reparse-symbol class_member_declaration) [383735 384665])
+                    ("getProgramTypes" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("carLot" variable (:type "CarLot") (reparse-symbol formal_parameters) [384756 384769])
+                            ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [384771 384781]))                          )
+                        (reparse-symbol class_member_declaration) [384740 388321])
+                    ("getStep6AdvanceAdjustmentWO" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("carLot" variable (:type "CarLot") (reparse-symbol formal_parameters) [388435 388448])
+                            ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [388450 388460]))                          
+                        :type "Step6AdvanceAdjustmentWO")
+                        (reparse-symbol class_member_declaration) [388375 392667])
+                    ("getAdvanceAdjustmentList" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("vehicleLoanContract" variable (:type "VehicleLoanContract") (reparse-symbol formal_parameters) [392735 392774]))                          )
+                        (reparse-symbol class_member_declaration) [392710 395162])
+                    ("updateAdvanceAdjustmentForColletionOnly" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("appID" variable (:type "Long") (reparse-symbol formal_parameters) [395221 395231]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [395169 395240])
+                    ("getUpdatedAdvanceTypes" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [395337 395347]))                          )
+                        (reparse-symbol class_member_declaration) [395314 397917])
+                    ("updateAdvanceProgram" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("program" variable (:type "String") (reparse-symbol formal_parameters) [398009 398023])
+                            ("appID" variable (:type "Long") (reparse-symbol formal_parameters) [398025 398035])
+                            ("carLot" variable (:type "CarLot") (reparse-symbol formal_parameters) [398037 398050]))                          
+                        :type "Step6AdvanceAdjustmentWO")
+                        (reparse-symbol class_member_declaration) [397956 414465])
+                    ("saveAdvanceAdjustmentDetails" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("step6InternalAdvanceWO" variable (:type "Step6InternalAdvanceWO") (reparse-symbol formal_parameters) [414555 414600])
+                            ("appID" variable (:type "Long") (reparse-symbol formal_parameters) [414602 414612]))                          )
+                        (reparse-symbol class_member_declaration) [414526 417157])
+                    ("updateAdvanceAdjustmentDetails" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("step6InternalAdvanceWO" variable (:type "Step6InternalAdvanceWO") (reparse-symbol formal_parameters) [417249 417294])
+                            ("advAdjPk" variable (:type "Long") (reparse-symbol formal_parameters) [417296 417309]))                          )
+                        (reparse-symbol class_member_declaration) [417218 418243])
+                    ("getEditAdvanceAdjustmentDetails" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("advnaceAdjPk" variable (:type "Long") (reparse-symbol formal_parameters) [418399 418416]))                          
+                        :type "Step6InternalAdvanceWO")
+                        (reparse-symbol class_member_declaration) [418337 419201])
+                    ("saveDpscNote" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("" variable (:type "dpscNoteList") (reparse-symbol formal_parameters) [419266 419278]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [419226 419656])
+                    ("saveStep6ApplicantAndEmpInfoForResidence" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("vehicleLoanApplicationWO" variable (:type "VehicleLoanApplicationWO") (reparse-symbol formal_parameters) [419821 419870])
+                            ("dlrID" variable (:type "String") (reparse-symbol formal_parameters) [419873 419885])
+                            ("isMinimalInfo" variable (:type "String") (reparse-symbol formal_parameters) [419887 419907])
+                            ("" variable (:type "dpscNoteList") (reparse-symbol formal_parameters) [419923 419935]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [419767 421494])
+                    ("saveStep6ResidenceInfo" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("vehicleLoanApplicationWO" variable (:type "VehicleLoanApplicationWO") (reparse-symbol formal_parameters) [421555 421604])
+                            ("dlrID" variable (:type "String") (reparse-symbol formal_parameters) [421607 421619])
+                            ("isMinimalInfo" variable (:type "String") (reparse-symbol formal_parameters) [421621 421641])
+                            ("" variable (:type "dpscNoteList") (reparse-symbol formal_parameters) [421657 421669])
+                            ("vehicleLoanContract" variable (:type "VehicleLoanContract") (reparse-symbol formal_parameters) [421670 421709])
+                            ("applicantWO" variable (:type "ApplicantWO") (reparse-symbol formal_parameters) [421710 421733])
+                            ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [421734 421744])
+                            ("isResidenceComplete" variable (:type "String") (reparse-symbol formal_parameters) [421745 421771])
+                            ("tab" variable (:type "int") (reparse-symbol formal_parameters) [421772 421779]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [421520 429816])
+                    ("saveStep6AEmpInfoForIncome" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("vehicleLoanApplicationWO" variable (:type "VehicleLoanApplicationWO") (reparse-symbol formal_parameters) [429863 429912])
+                            ("" variable (:type "dpscNoteList") (reparse-symbol formal_parameters) [429929 429941]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [429823 430949])
+                    ("save" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("applicantWO" variable (:type "ApplicantWO") (reparse-symbol formal_parameters) [430974 430997])
+                            ("tab" variable (:type "int") (reparse-symbol formal_parameters) [430998 431005])
+                            ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [431006 431016]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [430956 435329])
+                    ("saveStep6IncomeInfo" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("vehicleLoanApplicationWO" variable (:type "VehicleLoanApplicationWO") (reparse-symbol formal_parameters) [435386 435435])
+                            ("" variable (:type "dpscNoteList") (reparse-symbol formal_parameters) [435452 435464])
+                            ("applicantWO" variable (:type "ApplicantWO") (reparse-symbol formal_parameters) [435465 435488])
+                            ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [435489 435499])
+                            ("isIncomeComplete" variable (:type "String") (reparse-symbol formal_parameters) [435500 435523])
+                            ("tab" variable (:type "int") (reparse-symbol formal_parameters) [435524 435531]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [435354 439783])
+                    ("saveStep6BankInfo" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("vehicleLoanApplicationWO" variable (:type "VehicleLoanApplicationWO") (reparse-symbol formal_parameters) [439838 439887])
+                            ("" variable (:type "dpscNoteList") (reparse-symbol formal_parameters) [439904 439916])
+                            ("applicantWO" variable (:type "ApplicantWO") (reparse-symbol formal_parameters) [439917 439940])
+                            ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [439941 439951])
+                            ("isBankComplete" variable (:type "String") (reparse-symbol formal_parameters) [439952 439973])
+                            ("tab" variable (:type "int") (reparse-symbol formal_parameters) [439974 439981]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [439808 447673])
+                    ("saveScreenActivityLog" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("screenActivityLog" variable (:type "ScreenActivityLog") (reparse-symbol formal_parameters) [447732 447767]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [447698 447984])
+                    ("sendDpscMessage" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("carLotDpscMessageWO" variable (:type "CarLotDpscMessageWO") (reparse-symbol formal_parameters) [448893 448932]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [448865 449658])
+                    ("getDpscMessages" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [449711 449721]))                          )
+                        (reparse-symbol class_member_declaration) [449695 450265])
+                    ("getDpscMessageByPk" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("pk" variable (:type "Long") (reparse-symbol formal_parameters) [450315 450322]))                          
+                        :type "CarLotDpscMessage")
+                        (reparse-symbol class_member_declaration) [450271 450663])
+                    ("getDacByVlaPk" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [450754 450764]))                          
+                        :type "DealsAtContract")
+                        (reparse-symbol class_member_declaration) [450717 452369])
+                    ("getVlaDiwVlcStatusByVlaPk" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [452463 452473]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [452423 453103])
+                    ("getPhoneHistoryFromVlaInfoAtVlc" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("phone" variable (:type "ApplicantPhone") (reparse-symbol formal_parameters) [453185 453205]))                          
+                        :type "ApplicantPhonesHistory")
+                        (reparse-symbol class_member_declaration) [453123 453779])
+                    ("getVlaAppxDocuments" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [453834 453844]))                          )
+                        (reparse-symbol class_member_declaration) [453814 454385])
+                    ("getVlaAppxDocumentsByDocId" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("docId" variable (:type "Long") (reparse-symbol formal_parameters) [454441 454451]))                          
+                        :type "VlaAppxDocument")
+                        (reparse-symbol class_member_declaration) [454391 455100])
+                    ("getDocxDocumentWOList" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [455198 455208]))                          )
+                        (reparse-symbol class_member_declaration) [455176 460115])
+                    ("makeDpscMessageAsReviewed" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("docAndMsgRowObj" variable (:type "DocsAndMessagesWO") (reparse-symbol formal_parameters) [460178 460211]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [460140 460618])
+                    ("makeVlaAppxDocAsReviewed" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("docAndMsgRowObj" variable (:type "DocsAndMessagesWO") (reparse-symbol formal_parameters) [460715 460748]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [460678 463930])
+                    ("updateDocXDT1Table" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("docAndMsgRowObj" variable (:type "DocsAndMessagesWO") (reparse-symbol formal_parameters) [463987 464020]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [463956 465792])
+                    ("getStep6ActionsList" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("dealerRoleName" variable (:type "String") (reparse-symbol formal_parameters) [465884 465905]))                          )
+                        (reparse-symbol class_member_declaration) [465864 467643])
+                    ("saveAnalystNotesNew" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("anlaystNotesNew" variable (:type "String") (reparse-symbol formal_parameters) [467714 467736])
+                            ("caUser" variable (:type "CaUser") (reparse-symbol formal_parameters) [467738 467751])
+                            ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [467753 467763]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [467682 468498])
+                    ("getAnalystNotesHistory" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("caUser" variable (:type "CaUser") (reparse-symbol formal_parameters) [468582 468595])
+                            ("dpscTypeDescription" variable (:type "String") (reparse-symbol formal_parameters) [468597 468623])
+                            ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [468625 468635]))                          )
+                        (reparse-symbol class_member_declaration) [468559 469766])
+                    ("TIMEOUT_DOC_PAGE_FETCH" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "long")
+                        (reparse-symbol class_member_declaration) [470635 470691])
+                    ("readAppxPdfBlobStreamListByDocId" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("docId" variable (:type "Long") (reparse-symbol formal_parameters) [470766 470776]))                          )
+                        (reparse-symbol class_member_declaration) [470733 472645])
+                    ("saveAuditNotesNew" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("auditNotesNew" variable (:type "String") (reparse-symbol formal_parameters) [472714 472734])
+                            ("caUser" variable (:type "CaUser") (reparse-symbol formal_parameters) [472736 472749])
+                            ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [472751 472761]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [472684 473290])
+                    ("getAuditNotesHistory" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("caUser" variable (:type "CaUser") (reparse-symbol formal_parameters) [473390 473403])
+                            ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [473405 473415]))                          )
+                        (reparse-symbol class_member_declaration) [473369 474106])
+                    ("getAppCallVerificationNotes" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("" variable (:type "attributeList") (reparse-symbol formal_parameters) [474182 474195])
+                            ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [474197 474207]))                          )
+                        (reparse-symbol class_member_declaration) [474143 478916])
+                    ("getVerificationQuestionList" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("verificationQuestionType" variable (:type "VerificationQuestionType") (reparse-symbol formal_parameters) [479017 479066]))                          )
+                        (reparse-symbol class_member_declaration) [478989 479689])
+                    ("getExpiredVerificationQuestionList" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("verificationQuestionType" variable (:type "VerificationQuestionType") (reparse-symbol formal_parameters) [479835 479884])
+                            ("submittedDate" variable (:type "DateTime") (reparse-symbol formal_parameters) [479885 479907]))                          )
+                        (reparse-symbol class_member_declaration) [479800 480791])
+                    ("saveStep6ResidenceVerification" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("vehicleLoanApplicationWO" variable (:type "VehicleLoanApplicationWO") (reparse-symbol formal_parameters) [480859 480908])
+                            ("dlrID" variable (:type "String") (reparse-symbol formal_parameters) [480911 480923])
+                            ("isMinimalInfo" variable (:type "String") (reparse-symbol formal_parameters) [480925 480945])
+                            ("" variable (:type "dpscNoteList") (reparse-symbol formal_parameters) [480961 480973])
+                            ("verificationPhoneCall" variable (:type "VerificationPhoneCall") (reparse-symbol formal_parameters) [480975 481018])
+                            ("" variable (:type "verificationAnswerList") (reparse-symbol formal_parameters) [481045 481067]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [480816 481931])
+                    ("saveStep6EmploymentVerification" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("vehicleLoanApplicationWO" variable (:type "VehicleLoanApplicationWO") (reparse-symbol formal_parameters) [482000 482049])
+                            ("" variable (:type "dpscNoteList") (reparse-symbol formal_parameters) [482066 482078])
+                            ("verificationPhoneCall" variable (:type "VerificationPhoneCall") (reparse-symbol formal_parameters) [482080 482123])
+                            ("" variable (:type "verificationAnswerList") (reparse-symbol formal_parameters) [482150 482172]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [481956 482941])
+                    ("saveVlaTotalGrossAndNonprovablePay" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [483013 483023]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [482966 483666])
+                    ("getVerificationPhoneCall" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("vehicleLoanApplication" variable (:type "VehicleLoanApplication") (reparse-symbol formal_parameters) [483728 483773]))                          
+                        :type "VerificationPhoneCall")
+                        (reparse-symbol class_member_declaration) [483674 484276])
+                    ("getLatestEmploymentVerificationPhoneCall" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("vehicleLoanApplication" variable (:type "VehicleLoanApplication") (reparse-symbol formal_parameters) [484352 484397])
+                            ("applicantEmployment" variable (:type "ApplicantEmployment") (reparse-symbol formal_parameters) [484399 484438])
+                            ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [484440 484459]))                          
+                        :type "VerificationPhoneCall")
+                        (reparse-symbol class_member_declaration) [484282 485376])
+                    ("getLatestResidenceVerificationPhoneCall" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("vehicleLoanApplication" variable (:type "VehicleLoanApplication") (reparse-symbol formal_parameters) [485451 485496])
+                            ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [485498 485517])
+                            ("applicantAddress" variable (:type "ApplicantAddress") (reparse-symbol formal_parameters) [485519 485552]))                          
+                        :type "VerificationPhoneCall")
+                        (reparse-symbol class_member_declaration) [485382 486448])
+                    ("getUnderWritingLevel" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("role" variable (:type "String") (reparse-symbol formal_parameters) [486540 486551]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [486505 487323])
+                    ("getApplicantVehInsuredHistoryList" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [487454 487473]))                          )
+                        (reparse-symbol class_member_declaration) [487420 487971])
+                    ("getStepType" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("code" variable (:type "String") (reparse-symbol formal_parameters) [488055 488066]))                          
+                        :type "StepType")
+                        (reparse-symbol class_member_declaration) [488027 488357])
+                    ("updateVlaStatus" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [488424 488434])
+                            ("vlaStatusType" variable (:type "VlaStatusType") (reparse-symbol formal_parameters) [488436 488463]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [488396 488979])
+                    ("updateVlaStatus" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [489046 489056])
+                            ("vlaStatusType" variable (:type "VlaStatusType") (reparse-symbol formal_parameters) [489058 489085])
+                            ("phase" variable (:type "String") (reparse-symbol formal_parameters) [489087 489099]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [489018 490092])
+                    ("flipDriverCount" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("driverSSN" variable (:type "String") (reparse-symbol formal_parameters) [491019 491035])
+                            ("signerSSN" variable (:type "String") (reparse-symbol formal_parameters) [491037 491053])
+                            ("dealerId" variable (:type "String") (reparse-symbol formal_parameters) [491055 491070])
+                            ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [491072 491082])
+                            ("appReceiptDate" variable (:type "DateTime") (reparse-symbol formal_parameters) [491084 491107]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [490988 494122])
+                    ("getBureauRePullCount" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [494225 494244]))                          
+                        :type "AbsBnScoreDetail")
+                        (reparse-symbol class_member_declaration) [494180 494841])
+                    ("getApplicantCurrentMailingPreviousAddress" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [494975 494994]))                          )
+                        (reparse-symbol class_member_declaration) [494933 496121])
+                    ("getBureauScore" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [496204 496214]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [496175 497889])
+                    ("getBureauName" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [498001 498011]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [497973 498849])
+                    ("getVlaInUse" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("vehicleLoanApplication" variable (:type "VehicleLoanApplication") (reparse-symbol formal_parameters) [499593 499638]))                          
+                        :type "VlasInUse")
+                        (reparse-symbol class_member_declaration) [499564 500410])
+                    ("setVlaInUse" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("caUser" variable (:type "CaUser") (reparse-symbol formal_parameters) [500473 500486])
+                            ("vehicleLoanApplication" variable (:type "VehicleLoanApplication") (reparse-symbol formal_parameters) [500488 500533]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [500449 500985])
+                    ("getCarLot12" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("pk" variable (:type "Long") (reparse-symbol formal_parameters) [501062 501069]))                          
+                        :type "CarLot")
+                        (reparse-symbol class_member_declaration) [501036 501364])
+                    ("getCarLotEmployee12" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("pk" variable (:type "Long") (reparse-symbol formal_parameters) [501426 501433]))                          
+                        :type "CarLotEmployee")
+                        (reparse-symbol class_member_declaration) [501384 501735])
+                    ("getCaUser12" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("pk" variable (:type "Long") (reparse-symbol formal_parameters) [501781 501788]))                          
+                        :type "CaUser")
+                        (reparse-symbol class_member_declaration) [501755 502082])
+                    ("getDealsInWork12" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("pk" variable (:type "Long") (reparse-symbol formal_parameters) [502174 502181]))                          
+                        :type "DealsInWork")
+                        (reparse-symbol class_member_declaration) [502138 502685])
+                    ("getVlaDiwVlcStatusHistoryDealsInWork" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("vehicleLoanApplication" variable (:type "VehicleLoanApplication") (reparse-symbol formal_parameters) [503322 503367])
+                            ("vlaDiwVlcStatusTypes" variable (:type "VlaStatusType") (reparse-symbol formal_parameters) [503369 503403]))                          
+                        :type "DealsInWork")
+                        (reparse-symbol class_member_declaration) [503266 504108])
+                    ("getVlaDiwVlcStatusHistoryCarLotSidvendorEnrollment" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("vehicleLoanApplication" variable (:type "VehicleLoanApplication") (reparse-symbol formal_parameters) [504191 504236])
+                            ("vlaDiwVlcStatusTypes" variable (:type "VlaStatusType") (reparse-symbol formal_parameters) [504238 504272]))                          
+                        :type "Long")
+                        (reparse-symbol class_member_declaration) [504128 505009])
+                    ("saveActionHistory" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("actionDescritpion" variable (:type "String") (reparse-symbol formal_parameters) [505078 505102])
+                            ("vlaPk" variable (:type "Long") (reparse-symbol formal_parameters) [505104 505114]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [505048 505886])
+                    ("getStep5ApplicantWOs" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("" variable (:type "list") (reparse-symbol formal_parameters) [505959 505963]))                          )
+                        (reparse-symbol class_member_declaration) [505923 507275])
+                    ("getStep5ApplicantWOList" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [507368 507378]))                          )
+                        (reparse-symbol class_member_declaration) [507344 507974])
+                    ("getStep5ApplicantInfoList" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [508029 508039]))                          )
+                        (reparse-symbol class_member_declaration) [508003 508548])
+                    ("updateCarLotAttnNeeded" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("vlaPK" variable (:type "Long") (reparse-symbol formal_parameters) [508621 508631])
+                            ("flag" variable (:type "String") (reparse-symbol formal_parameters) [508633 508644]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [508586 509121])
+                    ("getEmailService" function
+                       (:typemodifiers ("public")
+                        :type "EmailService")
+                        (reparse-symbol class_member_declaration) [509756 509830])
+                    ("setEmailService" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("emailService" variable (:type "EmailService") (reparse-symbol formal_parameters) [509864 509889]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [509836 509940])
+                    ("getInitializationService" function
+                       (:typemodifiers ("public")
+                        :type "InitializationService")
+                        (reparse-symbol class_member_declaration) [509946 510047])
+                    ("setInitializationService" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("initializationService" variable (:type "InitializationService") (reparse-symbol formal_parameters) [510090 510133]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [510053 510202])
+                    ("isApplicationSubmitted" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [510295 510305]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [510257 510874])
+                    ("getVlaInUseByLogin" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [510966 510976])
+                            ("userId" variable (:type "String") (reparse-symbol formal_parameters) [510978 510991]))                          
+                        :type "VlasInUse")
+                        (reparse-symbol class_member_declaration) [510930 511709])
+                    ("saveBrowserInfo" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("userName" variable (:type "String") (reparse-symbol formal_parameters) [511794 511809])
+                            ("broswerInfo" variable (:type "String") (reparse-symbol formal_parameters) [511811 511829])
+                            ("ipAddress" variable (:type "String") (reparse-symbol formal_parameters) [511843 511859])
+                            ("dlrId" variable (:type "String") (reparse-symbol formal_parameters) [511861 511873]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [511766 512292])
+                    ("getApplicantReferenceInfoWOs" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("" variable (:type "list") (reparse-symbol formal_parameters) [512382 512386]))                          )
+                        (reparse-symbol class_member_declaration) [512338 516291])
+                    ("getApplicantReferenceInfoWOList" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [516387 516397]))                          )
+                        (reparse-symbol class_member_declaration) [516355 517081])
+                    ("getApplicantReferenceInfoList" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [517175 517185]))                          )
+                        (reparse-symbol class_member_declaration) [517145 517686])
+                    ("getReferenceInfoWO" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [517769 517779]))                          
+                        :type "ReferenceInfoWO")
+                        (reparse-symbol class_member_declaration) [517727 519058])
+                    ("isSSNExist" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("ssn" variable (:type "String") (reparse-symbol formal_parameters) [519123 519133])
+                            ("dlrId" variable (:type "String") (reparse-symbol formal_parameters) [519135 519147]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [519096 519781])
+                    ("updateDealStatusOnStep5" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("vehicleLoanApplication" variable (:type "VehicleLoanApplication") (reparse-symbol formal_parameters) [519845 519890]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [519806 520224])
+                    ("getCarLotEmployeeListByDealerAndRole" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("dlrId" variable (:type "String") (reparse-symbol formal_parameters) [520374 520386])
+                            ("roleName" variable (:type "String") (reparse-symbol formal_parameters) [520388 520403]))                          )
+                        (reparse-symbol class_member_declaration) [520337 522428])
+                    ("cashIncomeAllowedPolicyByVla" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [522532 522542]))                          
+                        :type "Boolean")
+                        (reparse-symbol class_member_declaration) [522488 523365])
+                    ("getPricingPolicyMethodGrpPkByVehicleLoanAppln" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [523499 523509]))                          
+                        :type "Long")
+                        (reparse-symbol class_member_declaration) [523441 524308])
+                    ("getPricingMethodGrpPkByVehicleLoanAppln" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [524420 524430]))                          
+                        :type "Long")
+                        (reparse-symbol class_member_declaration) [524368 525208])
+                    ("getProvableEmploymentTypes" function
+                       (:constructor-flag t
+                        :throws ("ServiceException"))
+                        (reparse-symbol class_member_declaration) [525234 526193])
+                    ("getCurrentAdvanceProgram" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("carLot" variable (:type "CarLot") (reparse-symbol formal_parameters) [526272 526285])
+                            ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [526287 526297]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [526233 529924])
+                    ("isCashIncomeExists" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [529998 530008]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [529964 531323])
+                    ("getEmploymentTypeAndGrossIncomeByVla" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [531474 531484]))                          )
+                        (reparse-symbol class_member_declaration) [531437 533707])
+                    ("isDealerTrackAppId" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("vlaId" variable (:type "Long") (reparse-symbol formal_parameters) [533778 533788]))                          )
+                        (reparse-symbol class_member_declaration) [533759 534893])
+                    ("isRouteOneAppId" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("vlaId" variable (:type "Long") (reparse-symbol formal_parameters) [534960 534970]))                          )
+                        (reparse-symbol class_member_declaration) [534944 536143])
+                    ("isRouteOneAggAglPk" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("aglPk" variable (:type "Long") (reparse-symbol formal_parameters) [536213 536223]))                          )
+                        (reparse-symbol class_member_declaration) [536194 537019])
+                    ("getAggregatorPartnerByAppId" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("vlaId" variable (:type "Long") (reparse-symbol formal_parameters) [537082 537092]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [537040 537562])
+                    ("getCustmerScore" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("vlaId" variable (:type "Long") (reparse-symbol formal_parameters) [537612 537622]))                          
+                        :type "Double")
+                        (reparse-symbol class_member_declaration) [537582 538091])
+                    ("getDealsInWorkPk" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("vlaPk" variable (:type "Long") (reparse-symbol formal_parameters) [538183 538193]))                          
+                        :type "DealsInWork")
+                        (reparse-symbol class_member_declaration) [538147 539580])
+                    ("changeVlaStatus" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("vehicleLoanApplication" variable (:type "VehicleLoanApplication") (reparse-symbol formal_parameters) [539635 539680])
+                            ("vlaStatus" variable (:type "VlaStatus") (reparse-symbol formal_parameters) [539682 539701]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [539605 540151])
+                    ("saveVehicleLoanApplication" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("vehicleLoanApplication" variable (:type "VehicleLoanApplication") (reparse-symbol formal_parameters) [540234 540279]))                          
+                        :type "VehicleLoanApplication")
+                        (reparse-symbol class_member_declaration) [540176 540665])
+                    ("getAllAppsBeforePS" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("calPk" variable (:type "Long") (reparse-symbol formal_parameters) [540758 540768]))                          )
+                        (reparse-symbol class_member_declaration) [540739 541749])
+                    ("updateEContractFlagOnALLAppsBeforeps" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("isEcontractApp" variable (:type "String") (reparse-symbol formal_parameters) [541823 541844])
+                            ("cauPk" variable (:type "Long") (reparse-symbol formal_parameters) [541845 541855])
+                            ("carLotPk" variable (:type "Long") (reparse-symbol formal_parameters) [541856 541869]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [541774 542248])
+                    ("makeNonEcDealsAndCloseEsignStipBeforeps" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("isEcontractApp" variable (:type "String") (reparse-symbol formal_parameters) [542325 542346])
+                            ("cauPk" variable (:type "Long") (reparse-symbol formal_parameters) [542347 542357])
+                            ("carLotPk" variable (:type "Long") (reparse-symbol formal_parameters) [542358 542371]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [542273 542804])
+                    ("updateECFlagOnALLAppsBeforeps" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("isEcontractApp" variable (:type "String") (reparse-symbol formal_parameters) [542853 542874])
+                            ("cauPk" variable (:type "Long") (reparse-symbol formal_parameters) [542875 542885])
+                            ("carLotPk" variable (:type "Long") (reparse-symbol formal_parameters) [542886 542899]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [542810 544016])
+                    ("closeESignDeclarationForAllApps" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("cauPk" variable (:type "Long") (reparse-symbol formal_parameters) [544067 544077])
+                            ("carLotPk" variable (:type "Long") (reparse-symbol formal_parameters) [544078 544091]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [544022 544611])
+                    ("saveVlaStatus" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("vlaStatus" variable (:type "VlaStatus") (reparse-symbol formal_parameters) [544665 544684]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [544636 545076])
+                    ("deletePhaseFromVlaStatus" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("appID" variable (:type "Long") (reparse-symbol formal_parameters) [545138 545148]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [545101 545872])
+                    ("getVerificationAnswer" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("apcPk" variable (:type "Long") (reparse-symbol formal_parameters) [545915 545925])
+                            ("question" variable (:type "String") (reparse-symbol formal_parameters) [545927 545942]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [545878 546592])
+                    ("getVerificationAnswerByApcandQuestion" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("apcPk" variable (:type "Long") (reparse-symbol formal_parameters) [546683 546693])
+                            ("question" variable (:type "String") (reparse-symbol formal_parameters) [546695 546710]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [546631 547183])
+                    ("checkForFax" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("vlaPk" variable (:type "Long") (reparse-symbol formal_parameters) [547217 547227]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [547189 548010])
+                    ("checkForFaxByVla" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("vlaPk" variable (:type "Long") (reparse-symbol formal_parameters) [548081 548091]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [548049 548487])
+                    ("getDocId" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("docType" variable (:type "String") (reparse-symbol formal_parameters) [548515 548529])
+                            ("vlaPk" variable (:type "Long") (reparse-symbol formal_parameters) [548531 548541]))                          
+                        :type "Long")
+                        (reparse-symbol class_member_declaration) [548493 549257])
+                    ("getDocIdByDocTypeAndVla" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("docType" variable (:type "String") (reparse-symbol formal_parameters) [549332 549346])
+                            ("vlaPk" variable (:type "Long") (reparse-symbol formal_parameters) [549348 549358]))                          
+                        :type "Long")
+                        (reparse-symbol class_member_declaration) [549296 549748])
+                    ("saveOpenLoanCheckFlagOnApplicant" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("pk" variable (:type "Long") (reparse-symbol formal_parameters) [549823 549830]))                          
+                        :type "Applicant")
+                        (reparse-symbol class_member_declaration) [549773 550247])
+                    ("deleteCaseInUse" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("caseID" variable (:type "Long") (reparse-symbol formal_parameters) [550314 550325]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [550286 550947])
+                    ("updateCaseStatusForAllWarnings" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("dcstPk" variable (:type "Long") (reparse-symbol formal_parameters) [551028 551039]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [550985 551546])
+                    ("getDMSWarningCount" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("calPk" variable (:type "Long") (reparse-symbol formal_parameters) [551599 551609]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [551566 552619])
+                    ("maxPaymentAllowedPolicyByVla" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [552702 552712]))                          
+                        :type "Double")
+                        (reparse-symbol class_member_declaration) [552659 553459])
+                    ("updateVlaStatusByVlsTypeAndWQPk" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [553547 553557])
+                            ("vlaStatusTypePk" variable (:type "Long") (reparse-symbol formal_parameters) [553559 553579])
+                            ("wqPhasePk" variable (:type "Long") (reparse-symbol formal_parameters) [553581 553595]))                          
+                        :type "VlaStatus")
+                        (reparse-symbol class_member_declaration) [553498 554498])
+                    ("updateVlaStatusToLss" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("vlaPk" variable (:type "Long") (reparse-symbol formal_parameters) [554571 554581])
+                            ("lssVlaStatus" variable (:type "String") (reparse-symbol formal_parameters) [554583 554602]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [554538 555605])
+                    ("updateCaDt1Field2ByDocId" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("field2" variable (:type "String") (reparse-symbol formal_parameters) [555683 555696])
+                            ("docIds" variable (:type "String") (reparse-symbol formal_parameters) [555698 555711]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [555646 556567])
+                    ("getApplicantPurchasedEmploymentsHistList" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [556674 556693]))                          )
+                        (reparse-symbol class_member_declaration) [556633 557332])
+                    ("getApplicantPurchasedEmployerData" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [557442 557461]))                          )
+                        (reparse-symbol class_member_declaration) [557395 559242])
+                    ("saveApplicantPurchasedEmployerData" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("applicantWO" variable (:type "ApplicantWO") (reparse-symbol formal_parameters) [559327 559350]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [559267 560842])
+                    ("saveApplicantPurchasedEmployerHistory" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("applicantWO" variable (:type "ApplicantWO") (reparse-symbol formal_parameters) [560918 560941])
+                            ("applicantWNCallHistory" variable (:type "ApplEmploymentsVerification") (reparse-symbol formal_parameters) [560955 561005]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [560867 563446])
+                    ("populateEmployeeStatusList" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("" variable (:type "employeeStatusList") (reparse-symbol formal_parameters) [563526 563544])
+                            ("type" variable (:type "String") (reparse-symbol formal_parameters) [563546 563557]))                          )
+                        (reparse-symbol class_member_declaration) [563473 565455])
+                    ("getAmountFinanced" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("vehicleLoanApplication" variable (:type "VehicleLoanApplication") (reparse-symbol formal_parameters) [565540 565585]))                          )
+                        (reparse-symbol class_member_declaration) [565522 566312])
+                    ("getDACAmountFinanced" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [566399 566409]))                          )
+                        (reparse-symbol class_member_declaration) [566378 567113])
+                    ("updateFullCoverage" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("carLot" variable (:type "CarLot") (reparse-symbol formal_parameters) [567185 567198])
+                            ("appID" variable (:type "Long") (reparse-symbol formal_parameters) [567200 567210]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [567152 576477])
+                    ("isFullCoverageEligible" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [576550 576560])
+                            ("releaseDate" variable (:type "String") (reparse-symbol formal_parameters) [576562 576580]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [576516 577085])
+                    ("saveApplicantSpouseInfo" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("spouseInfoWO" variable (:type "SpouseInfoWO") (reparse-symbol formal_parameters) [577168 577193]))                          
+                        :type "SpouseInfoWO")
+                        (reparse-symbol class_member_declaration) [577124 580120])
+                    ("getSpouseInfo" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [580174 580193]))                          
+                        :type "SpouseInfoWO")
+                        (reparse-symbol class_member_declaration) [580140 581284])
+                    ("getAddressByApplicantAndAddrType" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("applicant" variable (:type "Applicant") (reparse-symbol formal_parameters) [581361 581380])
+                            ("addressType" variable (:type "AddressType") (reparse-symbol formal_parameters) [581382 581405]))                          
+                        :type "ApplicantAddress")
+                        (reparse-symbol class_member_declaration) [581304 582259])
+                    ("getReSurrectStatusAndPhase" function
+                       (:constructor-flag t
+                        :throws ("ServiceException")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [582333 582343]))                          )
+                        (reparse-symbol class_member_declaration) [582306 583145])
+                    ("updateSysVariable" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("name" variable (:type "String") (reparse-symbol formal_parameters) [583200 583211])
+                            ("value" variable (:type "String") (reparse-symbol formal_parameters) [583213 583225]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [583170 583944])
+                    ("saveVlaStatusByVls" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("vlaStatus" variable (:type "VlaStatus") (reparse-symbol formal_parameters) [584006 584025]))                          
+                        :type "VlaStatus")
+                        (reparse-symbol class_member_declaration) [583969 584316])
+                    ("changeToRRfromCRByVla" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("vlaPk" variable (:type "Long") (reparse-symbol formal_parameters) [584375 584385]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [584341 584884])
+                    ("getSSNAfterSplit" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("ssn" variable (:type "String") (reparse-symbol formal_parameters) [584923 584933]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [584891 585164])
+                    ("getPhoneAfterSplit" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("PhoneNumber" variable (:type "String") (reparse-symbol formal_parameters) [585204 585222]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [585170 585738])
+                    ("getCustomerID" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("applicantWO" variable (:type "ApplicantWO") (reparse-symbol formal_parameters) [585790 585813]))                          
+                        :type "Applicant")
+                        (reparse-symbol class_member_declaration) [585759 587864])
+                    ("getCustomerPhoneID" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("applicantPhone" variable (:type "ApplicantPhone") (reparse-symbol formal_parameters) [587925 587954])
+                            ("customerID" variable (:type "Long") (reparse-symbol formal_parameters) [587955 587970]))                          
+                        :type "ApplicantPhone")
+                        (reparse-symbol class_member_declaration) [587884 590244])
+                    ("addPhoneNumberBad" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("applicantPhone" variable (:type "ApplicantPhone") (reparse-symbol formal_parameters) [590291 590320])
+                            ("customerID" variable (:type "Long") (reparse-symbol formal_parameters) [590321 590336]))                          
+                        :type "ApplicantPhone")
+                        (reparse-symbol class_member_declaration) [590251 592522])
+                    ("removePhoneNumberBad" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("applicantPhone" variable (:type "ApplicantPhone") (reparse-symbol formal_parameters) [592571 592600])
+                            ("customerID" variable (:type "Long") (reparse-symbol formal_parameters) [592601 592616]))                          
+                        :type "ApplicantPhone")
+                        (reparse-symbol class_member_declaration) [592528 594710])
+                    ("getIndex" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("itemName" variable (:type "String") (reparse-symbol formal_parameters) [594752 594767])
+                            ("" variable (:type "applicantPhoneList") (reparse-symbol formal_parameters) [594789 594807]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [594732 595491])
+                    ("updatePhoneRequest" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("applicantWO" variable (:type "ApplicantWO") (reparse-symbol formal_parameters) [595536 595559]))                          
+                        :type "ApplicantWO")
+                        (reparse-symbol class_member_declaration) [595498 599739])
+                    ("isPhoneExistsInCustomerHub" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("customerId" variable (:type "Long") (reparse-symbol formal_parameters) [599793 599808])
+                            ("applicantPhone" variable (:type "ApplicantPhone") (reparse-symbol formal_parameters) [599809 599838])
+                            ("customer" variable (:type "Customer") (reparse-symbol formal_parameters) [599839 599856]))                          
+                        :type "PhoneNumber")
+                        (reparse-symbol class_member_declaration) [599746 600291])
+                    ("isphoneExists" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("updatedPhone" variable (:type "ApplicantPhone") (reparse-symbol formal_parameters) [600326 600353])
+                            ("" variable (:type "applicantPhoneList") (reparse-symbol formal_parameters) [600388 600406]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [600297 601179])
+                    ("checkPhoneInCustomerHUB" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("updatedPhone" variable (:type "ApplicantPhone") (reparse-symbol formal_parameters) [601229 601256])
+                            ("" variable (:type "phoneNumberList") (reparse-symbol formal_parameters) [601288 601303]))                          
+                        :type "PhoneNumber")
+                        (reparse-symbol class_member_declaration) [601186 602301])
+                    ("isphoneChangeInDisplayorder" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("updatedPhone" variable (:type "ApplicantPhone") (reparse-symbol formal_parameters) [602366 602393])
+                            ("" variable (:type "applicantPhoneList") (reparse-symbol formal_parameters) [602428 602446]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [602323 603078])
+                    ("isphoneTypeChange" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("updatedPhone" variable (:type "ApplicantPhone") (reparse-symbol formal_parameters) [603133 603160])
+                            ("" variable (:type "applicantPhoneList") (reparse-symbol formal_parameters) [603195 603213]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [603100 603951])
+                    ("setPhoneRank" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("applicantPhone" variable (:type "ApplicantPhone") (reparse-symbol formal_parameters) [603993 604022])
+                            ("customerID" variable (:type "Long") (reparse-symbol formal_parameters) [604023 604038])
+                            ("phoneID" variable (:type "Long") (reparse-symbol formal_parameters) [604039 604051])
+                            ("rankChange" variable (:type "boolean") (reparse-symbol formal_parameters) [604052 604070]))                          
+                        :type "ApplicantPhone")
+                        (reparse-symbol class_member_declaration) [603958 606218])
+                    ("setPhoneTypeChange" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("applicantPhone" variable (:type "ApplicantPhone") (reparse-symbol formal_parameters) [606265 606294])
+                            ("customerID" variable (:type "Long") (reparse-symbol formal_parameters) [606295 606310])
+                            ("phoneID" variable (:type "Long") (reparse-symbol formal_parameters) [606311 606323]))                          
+                        :type "ApplicantPhone")
+                        (reparse-symbol class_member_declaration) [606224 608594])
+                    ("isPhoneExistsInHistory" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("phoneNumber" variable (:type "String") (reparse-symbol formal_parameters) [608670 608688])
+                            ("phoneExtension" variable (:type "String") (reparse-symbol formal_parameters) [608689 608710])
+                            ("apc_pk" variable (:type "Long") (reparse-symbol formal_parameters) [608711 608722]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [608636 609511])
+                    ("getPhoneID" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("phoneNumber" variable (:type "String") (reparse-symbol formal_parameters) [609575 609593])
+                            ("apc_pk" variable (:type "Long") (reparse-symbol formal_parameters) [609595 609606]))                          
+                        :type "Long")
+                        (reparse-symbol class_member_declaration) [609552 610542])
+                    ("sendCustomerHUBEmail" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("appId" variable (:type "Long") (reparse-symbol formal_parameters) [610766 610776]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [610732 612013])
+                    ("getCustomerIDDetails" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("customerID" variable (:type "Long") (reparse-symbol formal_parameters) [612070 612085]))                          
+                        :type "Customer")
+                        (reparse-symbol class_member_declaration) [612033 613294])
+                    ("getnewPhoneIds" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("applicantWO" variable (:type "ApplicantWO") (reparse-symbol formal_parameters) [613698 613721])
+                            ("customerId" variable (:type "Long") (reparse-symbol formal_parameters) [613722 613737])
+                            ("customer" variable (:type "Customer") (reparse-symbol formal_parameters) [613738 613755]))                          
+                        :type "ApplicantWO")
+                        (reparse-symbol class_member_declaration) [613663 617033])
+                    ("setExistingPhoneOrderandType" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("applicantWO" variable (:type "ApplicantWO") (reparse-symbol formal_parameters) [617298 617321])
+                            ("customerId" variable (:type "Long") (reparse-symbol formal_parameters) [617322 617337])
+                            ("customer" variable (:type "Customer") (reparse-symbol formal_parameters) [617338 617355]))                          
+                        :type "ApplicantWO")
+                        (reparse-symbol class_member_declaration) [617249 619013])
+                    ("setPhoneMarkBad" function
+                       (:throws ("ServiceException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("applicantWO" variable (:type "ApplicantWO") (reparse-symbol formal_parameters) [619202 619225]))                          
+                        :type "ApplicantWO")
+                        (reparse-symbol class_member_declaration) [619166 620292]))                  
+                :type "class")
+                nil [12624 620295]))          
+      :file "ApplicantServiceImpl.java"
+      :pointmax 620297
+      :fsize 532700
+      :lastmodtime '(22691 29586 0 0)
+      :unmatched-syntax nil))
+  :file "!drive_c!Users!jhalliley!work!Caps2_Appx!service!src!main!java!com!ca!caps!service!applicant!impl!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

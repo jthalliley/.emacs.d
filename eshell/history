@@ -1,0 +1,27 @@
+ls
+ls -1
+find . -name *.java|head -44
+which ack
+exit
+ls
+pwd
+env|sort
+bash
+exit
+pwd
+ls
+find . -name *.java|head
+find . -name '*.java'|head
+set
+ls
+which find
+env
+exit
+pwd
+echo $TERM
+ls
+pwd
+f *Hub*java
+find . -name *Hub*java
+find . -name '*Hub*java'	
+exit
